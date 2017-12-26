@@ -1,8 +1,11 @@
 package com.springapp.mvc.controller;
 
+import com.springapp.mvc.model.Article;
 import com.springapp.mvc.model.User;
+import com.springapp.mvc.service.ArticleService;
 import com.springapp.mvc.service.UserService;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.List;
 
 @Controller
 @RequestMapping("/restful")
@@ -19,6 +23,8 @@ public class HelloController {
 
     @Resource(name = "userService")
     private UserService userService;
+
+
 
     @RequestMapping(value = "/userinfo/{id}",method = RequestMethod.GET)
     public String showUserInfo(@PathVariable int id, ModelMap model){
@@ -31,8 +37,6 @@ public class HelloController {
         return "home";
     }
 
-
-
     @RequestMapping(value = "/home",method = RequestMethod.GET)
     public String showHome(ModelMap model){
         int count = userService.getUserCount();
@@ -43,14 +47,14 @@ public class HelloController {
     public ModelAndView handleRequest(HttpServletRequest request,
                                       HttpServletResponse response) throws Exception {
 
-        String uname=request.getParameter("name");
-        Integer uage=Integer.valueOf(request.getParameter("age"));
+//        String uname=request.getParameter("name");
+//        Integer uage=Integer.valueOf(request.getParameter("age"));
+//
+//        User info=new User();
+//        info.setPassword(uage);
+//        info.setName(uname);
 
-        User info=new User();
-        info.setAge(uage);
-        info.setName(uname);
-
-        userService.add(info);
+//        userService.add(info);
         return new ModelAndView("welcome");
     }
 
@@ -58,6 +62,4 @@ public class HelloController {
     public String goToAdd(ModelMap model){
         return "add";
     }
-
-
 }

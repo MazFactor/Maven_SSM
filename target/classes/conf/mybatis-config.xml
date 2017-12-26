@@ -7,6 +7,8 @@
     <typeAliases>
         <typeAlias alias="User" type="com.springapp.mvc.model.User"/>
         <typeAlias type="com.springapp.mvc.dao.UserDao" alias="UserDao"/>
+        <typeAlias type="com.springapp.mvc.model.Article" alias="Article"/>
+        <typeAlias type="com.springapp.mvc.dao.ArticleDao" alias="ArticleDao"/>
     </typeAliases>
 
     <!-- 映射map 指定映射文件-->

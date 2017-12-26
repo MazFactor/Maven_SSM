@@ -1,12 +1,17 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/cache"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/cache
+        http://www.springframework.org/schema/cache/spring-cache.xsd">
 
     <!-- 01.扫描基础包 -->
     <context:component-scan base-package="com.springapp.mvc"/>
+    <!--<mvc:annotation-driven/>-->
 
     <!-- 02.导入属性配置文件 -->
     <context:property-placeholder location="classpath:conf/jdbc.properties" />
@@ -30,15 +35,22 @@
     <!-- 04.配置SessionFactory -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="configLocation" value="classpath:conf/mybatis-config.xml" />
-        <property name="mapperLocations" value="classpath:mapper/UserMapper.xml"/>
+        <property name="mapperLocations" value="classpath:mapper/*Mapper.xml"/>
         <property name="dataSource" ref="dataSource" />
     </bean>
 
     <!-- 05.生成Dao代理对象 -->
+    <bean id="articleDao" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.springapp.mvc.dao.ArticleDao"/>
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
     <bean id="userDao" class="org.mybatis.spring.mapper.MapperFactoryBean">
         <property name="mapperInterface" value="com.springapp.mvc.dao.UserDao" />
         <property name="sqlSessionFactory" ref="sqlSessionFactory" />
     </bean>
+
+
 
     <!-- 06.生成Service代理对象 -->
     <!--<bean id="userService" class="com.springapp.mvc.service.impl.UserServiceImpl">-->
@@ -49,7 +61,6 @@
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource" />
     </bean>
-
 
     <!-- 08.freemarker的配置 -->
     <bean id="freemarkerConfigurer"
