@@ -41,9 +41,8 @@
         <property name="sqlSessionFactory" ref="sqlSessionFactory" />
     </bean>
 
-    <bean id="userService" class="com.springapp.mvc.service.impl.UserServiceImpl">
+    <bean id="userService" class="com.springapp.mvc.service.impl.UserServiceImpl"/>
         <!--<property name="userDao" ref="userDao"></property>  若启用此配置 UserServiceImpl类中的userDao必须具有setter和getter-->
-    </bean>
 
     <!-- freemarker的配置 -->
     <bean id="freemarkerConfigurer"
@@ -73,7 +72,7 @@
     </bean>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="prefix" value="/WEB-INF/views/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
 

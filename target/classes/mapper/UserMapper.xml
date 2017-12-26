@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.springapp.mvc.dao.UserDao">
-    <select id="getUserById" resultType="com.springapp.mvc.model.User">
+<mapper namespace="UserDao">
+    <select id="getUserById" resultType="User">
         SELECT * FROM student WHERE id = #{id}
     </select>
 
@@ -11,7 +11,7 @@
         SELECT COUNT(*) FROM student
     </select>
 
-    <insert id="add" parameterType="com.springapp.mvc.dao.UserDao">
+    <insert id="add" parameterType="UserDao">
         INSERT INTO student (name, age) VALUES (#{name}, #{age})
     </insert>
 </mapper>

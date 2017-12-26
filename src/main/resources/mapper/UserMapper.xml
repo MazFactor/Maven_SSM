@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.springapp.mvc.dao.UserDao">
-    <select id="getUserById" resultType="com.springapp.mvc.model.User">
+    <select id="getUserById" resultType="User">
         SELECT * FROM student WHERE id = #{id}
     </select>
 
