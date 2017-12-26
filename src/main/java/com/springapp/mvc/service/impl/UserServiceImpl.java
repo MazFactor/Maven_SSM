@@ -3,11 +3,12 @@ package com.springapp.mvc.service.impl;
 import com.springapp.mvc.dao.*;
 import com.springapp.mvc.model.*;
 import com.springapp.mvc.service.*;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
 
-
+@Service("userService")
 public class UserServiceImpl implements UserService {
 
 

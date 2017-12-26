@@ -5,12 +5,13 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <!-- 01.扫描基础包 -->
     <context:component-scan base-package="com.springapp.mvc"/>
 
-    <!-- 导入属性配置文件 -->
+    <!-- 02.导入属性配置文件 -->
     <context:property-placeholder location="classpath:conf/jdbc.properties" />
 
-    <!--配置数据源-->
+    <!-- 03.配置数据源-->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName">
             <value>${jdbc_driverClassName}</value>
@@ -26,25 +27,31 @@
         </property>
     </bean>
 
-    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource" />
-    </bean>
-
+    <!-- 04.配置SessionFactory -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="configLocation" value="classpath:conf/mybatis-config.xml" />
+        <property name="mapperLocations" value="classpath:mapper/UserMapper.xml"/>
         <property name="dataSource" ref="dataSource" />
     </bean>
 
-    <!-- mapper bean -->
+    <!-- 05.生成Dao代理对象 -->
     <bean id="userDao" class="org.mybatis.spring.mapper.MapperFactoryBean">
         <property name="mapperInterface" value="com.springapp.mvc.dao.UserDao" />
         <property name="sqlSessionFactory" ref="sqlSessionFactory" />
     </bean>
 
-    <bean id="userService" class="com.springapp.mvc.service.impl.UserServiceImpl"/>
-        <!--<property name="userDao" ref="userDao"></property>  若启用此配置 UserServiceImpl类中的userDao必须具有setter和getter-->
+    <!-- 06.生成Service代理对象 -->
+    <!--<bean id="userService" class="com.springapp.mvc.service.impl.UserServiceImpl">-->
+        <!--&lt;!&ndash;<property name="userDao" ref="userDao"></property>  若启用此配置 UserServiceImpl类中的userDao必须具有setter和getter&ndash;&gt;-->
+    <!--</bean>-->
 
-    <!-- freemarker的配置 -->
+    <!-- 07.配置事务管理器 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+
+    <!-- 08.freemarker的配置 -->
     <bean id="freemarkerConfigurer"
           class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
         <property name="templateLoaderPath" value="/WEB-INF/view/" />
@@ -59,7 +66,8 @@
             </props>
         </property>
     </bean>
-    <!-- FreeMarker视图解析 如返回userinfo。。在这里配置后缀名ftl和视图解析器。。 -->
+
+    <!-- 09.FreeMarker视图解析 如返回userinfo。。在这里配置后缀名ftl和视图解析器。。 -->
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
         <property name="viewClass"
@@ -71,6 +79,7 @@
         <property name="exposeSpringMacroHelpers" value="true" />
     </bean>
 
+    <!-- 10.配置视图解析器 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"/>
         <property name="suffix" value=".jsp"/>

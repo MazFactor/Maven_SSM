@@ -3,14 +3,14 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <!-- 命名空间 设置别名-->
+        <!-- 命名空间 设置别名-->
     <typeAliases>
         <typeAlias alias="User" type="com.springapp.mvc.model.User"/>
         <typeAlias type="com.springapp.mvc.dao.UserDao" alias="UserDao"/>
     </typeAliases>
 
     <!-- 映射map 指定映射文件-->
-    <mappers>
-        <mapper resource="mapper/UserMapper.xml"></mapper>
-    </mappers>
+    <!--<mappers>-->
+    <!--<mapper resource="mapper/UserMapper.xml"></mapper>-->
+    <!--</mappers>-->
 </configuration>

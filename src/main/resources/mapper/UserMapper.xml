@@ -11,7 +11,7 @@
         SELECT COUNT(*) FROM student
     </select>
 
-    <insert id="add" parameterType="com.springapp.mvc.dao.UserDao">
+    <insert id="add" parameterType="UserDao">
         INSERT INTO student (name, age) VALUES (#{name}, #{age})
     </insert>
 </mapper>
