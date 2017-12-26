@@ -1,0 +1,109 @@
+@font-face {
+    font-family: FontAwesome;
+    src: url(../utils/Froala/css/fonts/fontawesome-webfont.eot?v=3.2.1);
+    src: url(../utils/Froala/css/fonts/fontawesome-webfont.eot?#iefix&v=3.2.1) format("embedded-opentype"), url(../utils/Froala/css/fonts/fontawesome-webfont.woff?v=3.2.1) format("woff"), url(../utils/Froala/css/fonts/fontawesome-webfont.ttf?v=3.2.1) format("truetype"), url(../utils/Froala/css/fonts/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1) format("svg");
+    font-weight: 200;
+    font-style: normal;
+}
+
+[class^=icon-], [class*=" icon-"] {
+    font-family: FontAwesome;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    padding-right: 4px;
+    /*font-size: 12px;*/
+}
+
+.icon-user:before {
+    content: "\f007"
+}
+
+.icon-time:before {
+    content: "\f017"
+}
+
+.icon-align-center:before {
+    content: "\f037"
+}
+
+.icon-align-justify:before {
+    content: "\f039"
+}
+
+.icon-align-right:before {
+    content: "\f038"
+}
+
+.icon-align-left:before {
+    content: "\f036"
+}
+
+.icon-columns:before {
+    content: "\f0db"
+}
+
+.icon-cut:before {
+    content: "\f0c4"
+}
+
+.icon-copy:before {
+    content: "\f0c5"
+}
+
+.icon-font:before {
+    content: "\f031"
+}
+
+.icon-bold:before {
+    content: "\f032"
+}
+
+.icon-italic:before {
+    content: "\f033"
+}
+
+.icon-indent-left:before {
+    content: "\f03b"
+}
+
+.icon-indent-right:before {
+    content: "\f03c"
+}
+
+.icon-link:before {
+    content: "\f0c1"
+}
+
+.icon-list-ul:before {
+    content: "\f0ca"
+}
+
+.icon-list-ol:before {
+    content: "\f0cb"
+}
+
+.icon-list:before {
+    content: "\f03a"
+}
+
+.icon-paste:before {
+    content: "\f0ea"
+}
+
+.icon-save:before {
+    content: "\f0c7"
+}
+
+.icon-underline:before {
+    content: "\f0cd"
+}
+
+.icon-rotate-left:before, .icon-undo:before {
+    content: "\f0e2"
+}
+
+.icon-rotate-right:before, .icon-repeat:before {
+    content: "\f01e"
+}

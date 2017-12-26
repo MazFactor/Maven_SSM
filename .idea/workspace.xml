@@ -7,23 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39863eb6-1799-464e-bc0a-fd1f072f6828" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/index.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/HelloController.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/HelloController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/UserDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/model/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/classes/com/springapp/mvc/controller/HelloController.class" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/classes/com/springapp/mvc/controller/HelloController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/classes/com/springapp/mvc/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/classes/com/springapp/mvc/dao/UserDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/classes/com/springapp/mvc/model/User.class" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/classes/com/springapp/mvc/model/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/msmvc_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/msmvc_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/msmvc.iml" afterPath="$PROJECT_DIR$/msmvc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/HelloController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/HelloController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/conf/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/resources/conf/mvc-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/conf/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/target/classes/conf/mvc-dispatcher-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/conf/mybatis-config.xml" afterPath="$PROJECT_DIR$/target/classes/conf/mybatis-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/classes/conf/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/classes/conf/mvc-dispatcher-servlet.xml" />
@@ -559,7 +549,7 @@
       <workItem from="1514230322713" duration="1168000" />
       <workItem from="1514289621497" duration="7529000" />
       <workItem from="1514304021479" duration="17577000" />
-      <workItem from="1514322005562" duration="531000" />
+      <workItem from="1514322005562" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="Del redundant welcome.jsp">
       <created>1514230433703</created>
@@ -589,11 +579,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514303880906</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="index.jsp连接数据库成功！">
+      <created>1514322634153</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514322634154</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42913000" />
+    <option name="totallyTimeSpent" value="43041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -615,7 +612,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22717622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22717622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -641,7 +638,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Del redundant welcome.jsp" />
     <MESSAGE value="N/A" />
-    <option name="LAST_COMMIT_MESSAGE" value="N/A" />
+    <MESSAGE value="index.jsp连接数据库成功！" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.jsp连接数据库成功！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -835,6 +833,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
