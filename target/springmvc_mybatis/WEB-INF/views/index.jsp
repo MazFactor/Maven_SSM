@@ -6,14 +6,13 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <html>
 <head>
     <meta charset="UTF-8">
     <title>Page</title>
-
     <link rel="stylesheet" type="text/css" href="../../css/calendar.css">
     <link rel="stylesheet" type="text/css" href="../../css/my_groundwork.css">
     <script type="text/javascript" src="../../js/Clock.js"></script>
@@ -27,7 +26,12 @@
         }
 
         html, body {
-            height: 100%;
+            margin: 0;
+            padding: 0;
+
+            position: absolute;
+            width: 100%;
+            min-height: 100%;
         }
 
         #header {
@@ -98,7 +102,7 @@
             display: -webkit-flex;
             display: flex;
             margin: 80px 20px 80px 90px;
-            height: 100%;
+            /*height: 100%;*/
             /*background-color: #89b2a1;*/
         }
 
@@ -188,7 +192,6 @@
         }
 
     </style>
-    <%--<link rel="stylesheet" href="../css/groundwork.css">--%>
 </head>
 <body onload="showTime();">
 
@@ -219,16 +222,15 @@
         <!-- Left Part -->
         <div class="column-left">
             <div id="before-article"></div>
-
-            <article>
-                <c:forEach items="${articles}" var="article">
+            <c:forEach items="${articles}" var="article">
+                <article>
                     <h2>${article.subject}</h2>
                     <span class="icon-user"></span><a class="author" href="#">${article.authorId}</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
-                    class="icon-time"></span><span class="time-dis"><fmt:formatDate value="${article.create_time }" pattern="yyyy-MM-dd HH:mm:ss"/></span>
-                    <div id="article1" class="main-text">${article.content}…
-                    </div>
-                </c:forEach>
-            </article>
+                        class="icon-time"></span><span class="time-dis"><fmt:formatDate value="${article.create_time }"
+                                                                                        pattern="yyyy-MM-dd HH:mm:ss"/></span>
+                    <div id="article1" class="main-text">${article.content}…</div>
+                </article>
+            </c:forEach>
             <article>
                 <h2>Yoo Ah In Calls Out People Leaving Negative Comments Online + Moves To End…</h2>
                 <span class="icon-user"></span><a class="author" href="#">mch</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
@@ -417,7 +419,6 @@
             <!--Calendar End-->
         </div>
     </div>
-
 </div>
 
 

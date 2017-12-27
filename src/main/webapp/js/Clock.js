@@ -28,5 +28,17 @@ function showTime()
     obj.innerHTML = str;
     //延时器
     window.setTimeout("showTime()",1000);
+}
 
+function x() {
+
+    var y = ""
+
+    y += 'scrollHeight:' + document.body.scrollHeight;
+
+    y += ' offsetHeight:' + document.body.offsetHeight;
+
+    y += ' clientHeight:' + document.body.clientHeight;
+
+    //document.body.appendChild(document.createTextNode(y))
 }

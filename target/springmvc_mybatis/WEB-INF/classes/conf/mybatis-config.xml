@@ -12,7 +12,8 @@
     </typeAliases>
 
     <!-- 映射map 指定映射文件-->
-    <!--<mappers>-->
-    <!--<mapper resource="mapper/UserMapper.xml"></mapper>-->
-    <!--</mappers>-->
+    <mappers>
+            <mapper resource="mapper/UserMapper.xml"></mapper>
+            <mapper resource="mapper/ArticleMapper.xml"></mapper>
+    </mappers>
 </configuration>
