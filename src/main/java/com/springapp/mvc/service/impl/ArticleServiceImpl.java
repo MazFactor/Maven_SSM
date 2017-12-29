@@ -16,7 +16,7 @@ public class ArticleServiceImpl implements ArticleService{
 
     @Override
     public Article getArticleById(int id) {
-        return null;
+        return articleDao.getArticleById(id);
     }
 
     @Override
@@ -26,6 +26,6 @@ public class ArticleServiceImpl implements ArticleService{
 
     @Override
     public void addArticle(Article article) {
-
+        articleDao.addArticle(article);
     }
 }

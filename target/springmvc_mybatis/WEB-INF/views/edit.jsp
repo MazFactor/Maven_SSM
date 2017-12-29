@@ -115,7 +115,7 @@
             display: -webkit-flex;
             display: flex;
             margin: 80px 20px 80px 90px;
-            height: 100%;
+            /*height: 100%;*/
             background-color: #ffffff;
         }
 
@@ -195,7 +195,7 @@
     <div class="column-all">
         <!-- Left Part -->
         <div class="column-left">
-            <form action="" method="post" id="post">
+            <form action="addArticle" method="post" id="post">
                 <div class="b-updatepage-subjectbox">
                     <dl class=" b-updatepage-field b-updatepage-field-subject ">
                         <dt class="b-updatepage-field-head">
@@ -211,7 +211,7 @@
                     </dl>
                 </div>
                 <textarea id="edit" name="content"></textarea>
-                <button>Submit</button>
+                <button type="submit">Submit</button>
             </form>
 
             <!-- Include jQuery. -->
@@ -256,9 +256,9 @@
 
             <!-- Initialize the editor. -->
             <script>
-                $(function(){
+                $(function () {
                     //超大屏幕
-                    var toolbarButtons   = ['fullscreen', 'bold', 'italic', 'underline', 'strikeThrough', 'subscript', 'superscript', 'fontFamily', 'fontSize', '|', 'color', 'emoticons', 'inlineStyle', 'paragraphStyle', '|', 'paragraphFormat', 'align', 'formatOL', 'formatUL', 'outdent', 'indent', 'quote', 'insertHR', '-', 'insertLink', 'insertImage', 'insertVideo', 'insertFile', 'insertTable', 'undo', 'redo', 'clearFormatting', 'selectAll', 'html'];
+                    var toolbarButtons = ['fullscreen', 'bold', 'italic', 'underline', 'strikeThrough', 'subscript', 'superscript', 'fontFamily', 'fontSize', '|', 'color', 'emoticons', 'inlineStyle', 'paragraphStyle', '|', 'paragraphFormat', 'align', 'formatOL', 'formatUL', 'outdent', 'indent', 'quote', 'insertHR', '-', 'insertLink', 'insertImage', 'insertVideo', 'insertFile', 'insertTable', 'undo', 'redo', 'clearFormatting', 'selectAll', 'html'];
                     //大屏幕
                     var toolbarButtonsMD = ['fullscreen', 'bold', 'italic', 'underline', 'fontFamily', 'fontSize', 'color', 'paragraphStyle', 'paragraphFormat', 'align', 'formatOL', 'formatUL', 'outdent', 'indent', 'quote', 'insertHR', 'insertLink', 'insertImage', 'insertVideo', 'insertFile', 'insertTable', 'undo', 'redo', 'clearFormatting'];
                     //小屏幕
@@ -266,23 +266,23 @@
                     //手机
                     var toolbarButtonsXS = ['bold', 'italic', 'fontFamily', 'fontSize', 'undo', 'redo'];
                     $('#edit').froalaEditor({
-                        charCounterCount       : true,//默认
-                        charCounterMax         : -1,//默认
-                        language                 : 'zh_cn',
-                        saveInterval            : 0,//不自动保存，默认10000
-                        theme                    : "red",
-                        height                   : "850px",
-                        toolbarBottom           : false,//默认
-                        toolbarButtonsMD        : toolbarButtonsMD,
-                        toolbarButtonsSM        : toolbarButtonsSM,
-                        toolbarButtonsXS        : toolbarButtonsXS,
-                        toolbarInline           : false,//true选中设置样式,默认false
-                        toolbarSticky           : false,
-                        imageUploadMethod       : 'POST',
-                        imageUploadURL           : './lib/imgUpload.php',
+                        charCounterCount: true,//默认
+                        charCounterMax: -1,//默认
+                        language: 'zh_cn',
+                        saveInterval: 0,//不自动保存，默认10000
+                        theme: "red",
+                        height: "850px",
+                        toolbarBottom: false,//默认
+                        toolbarButtonsMD: toolbarButtonsMD,
+                        toolbarButtonsSM: toolbarButtonsSM,
+                        toolbarButtonsXS: toolbarButtonsXS,
+                        toolbarInline: false,//true选中设置样式,默认false
+                        toolbarSticky: false,
+                        imageUploadMethod: 'POST',
+                        imageUploadURL: './lib/imgUpload.php',
                         //imageUploadParam         : 'upImg',
-                        imageUploadParams        : {id: "edit"},
-                        placeholderText          : '博客从此开始',
+                        imageUploadParams: {id: "edit"},
+                        placeholderText: '博客从此开始',
                     })
                 });
             </script>

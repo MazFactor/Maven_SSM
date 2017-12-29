@@ -17,10 +17,9 @@
         <result property="modify_time" column="modify_time"/>
     </resultMap>
     <select id="getAllArticles" parameterType="int" resultMap="articleResultMap">
-        SELECT * FROM article WHERE authorId=#{id}
+        SELECT * FROM article WHERE authorId=#{id} ORDER BY create_time DESC
     </select>
-
-    <insert id="add" parameterType="ArticleDao">
+    <insert id="addArticle" parameterType="Article">
         INSERT INTO article (subject, content, tags, authorId, create_time, modify_time) VALUES (#{subject}, #{content}, #{tags}, #{authorId}, #{create_time}, #{modify_time})
     </insert>
 </mapper>

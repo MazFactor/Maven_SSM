@@ -1,8 +1,6 @@
 package com.springapp.mvc.model;
 
 import org.springframework.format.annotation.DateTimeFormat;
-
-import java.sql.Timestamp;
 import java.util.Date;
 
 public class Article {
@@ -13,7 +11,7 @@ public class Article {
     private int authorId;
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date create_time;
-    private Timestamp modify_time;
+    private Date modify_time;
 
 
     public int getId() {
@@ -59,15 +57,15 @@ public class Article {
         return create_time;
     }
 
-    public void setCreate_time(Timestamp create_time) {
+    public void setCreate_time(Date create_time) {
         this.create_time = create_time;
     }
 
-    public Timestamp getModify_time() {
+    public Date getModify_time() {
         return modify_time;
     }
 
-    public void setModify_time(Timestamp modify_time) {
+    public void setModify_time(Date modify_time) {
         this.modify_time = modify_time;
     }
 }

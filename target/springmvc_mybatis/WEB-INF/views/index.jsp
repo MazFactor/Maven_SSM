@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
 <html>
 <head>
@@ -15,7 +16,9 @@
     <title>Page</title>
     <link rel="stylesheet" type="text/css" href="../../css/calendar.css">
     <link rel="stylesheet" type="text/css" href="../../css/my_groundwork.css">
+    <link rel="stylesheet" type="text/css" href="../../css/gh-buttons.css">
     <script type="text/javascript" src="../../js/Clock.js"></script>
+    <script type="text/javascript" src="../../js/article.js"></script>
     <style type="text/css">
         * {
             -webkit-box-sizing: border-box;
@@ -111,15 +114,18 @@
             flex: initial;
             width: 65%;
             min-width: 100px;
-            border-right: solid 1px #DAE3E6;
+            /*border-right: solid 1px #DAE3E6;*/
         }
 
         #before-article {
             border-bottom: solid 1px #DAE3E6;
+            text-align: right;
+            margin-bottom: 5px;
         }
 
         article {
             border-bottom: solid 1px #DAE3E6;
+            border-right: solid 1px #DAE3E6;
             padding-top: 13px;
             padding-bottom: 30px;
             padding-right: 40px;
@@ -151,11 +157,12 @@
         .column-right {
             -webkit-flex: 1;
             flex: 1;
-            -webkit-align-items: center;
-            align-items: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-            border-top: solid 1px #DAE3E6;
+            /*-webkit-align-items: center;*/
+            /*align-items: center;*/
+            /*-webkit-justify-content: center;*/
+            /*justify-content: center;*/
+            /*border: solid 1px #DAE3E6;*/
+            margin-top: 36px;
 
         }
 
@@ -179,18 +186,22 @@
 
         a {
             text-decoration: none;
-            color: #000;
         }
 
         a:hover {
             color: #168da8;
         }
 
-        .author {
-            color: #00A3D9;
-            font-size: 11px;
-        }
-
+        /*.author {*/
+            /*color: #00A3D9;*/
+            /*font-size: 11px;*/
+        /*}*/
+        /*#insertArticle{*/
+            /*!*display:block;*!*/
+            /*!*padding-left: 98%;*!*/
+            /*padding-bottom: 5px;*/
+            /*!*font-size: x-large;*!*/
+        /*}*/
     </style>
 </head>
 <body onload="showTime();">
@@ -221,64 +232,28 @@
     <div class="column-all">
         <!-- Left Part -->
         <div class="column-left">
-            <div id="before-article"></div>
+            <div id="before-article">
+                <%--<a id="insertArticle" href="edit" methods="get" >+</a>--%>
+                <a href="edit" class="button icon add">Add post</a>
+            </div>
             <c:forEach items="${articles}" var="article">
                 <article>
                     <h2>${article.subject}</h2>
-                    <span class="icon-user"></span><a class="author" href="#">${article.authorId}</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
-                        class="icon-time"></span><span class="time-dis"><fmt:formatDate value="${article.create_time }"
-                                                                                        pattern="yyyy-MM-dd HH:mm:ss"/></span>
-                    <div id="article1" class="main-text">${article.content}…</div>
+                    <span class="icon-user"></span>
+                    <%--<a class="author" href="#">--%>
+                    <span>${article.authorId}&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <%--</a>--%>
+                    <span class="icon-time"></span><span><fmt:formatDate value="${article.create_time }" pattern="yyyy-MM-dd HH:mm:ss"/></span>
+                    <c:choose>
+                        <c:when test="${fn:length(article.content)>200}">
+                            <div id="article1" class="main-text">${fn:substring(article.content,0,200)}...</div>
+                        </c:when>
+                        <c:otherwise>
+                            <div id="article1" class="main-text">${article.content}</div>
+                        </c:otherwise>
+                    </c:choose>
                 </article>
             </c:forEach>
-            <article>
-                <h2>Yoo Ah In Calls Out People Leaving Negative Comments Online + Moves To End…</h2>
-                <span class="icon-user"></span><a class="author" href="#">mch</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
-                    class="icon-time"></span><span class="time-dis">2017-11-27 16:25:35</span>
-                <div id="article2" class="main-text">Late at night on November 24, actor Yoo Ah In puzzled fans and
-                    lookers-on with his sudden tirade against people leaving negative comments about him online. On his
-                    personal Twitter account, he wrote, “ I’ll let you in on a great tip. If you don’t want to look at
-                    me,…
-                </div>
-            </article>
-            <article>
-                <h2>Challenge 192 - Voting</h2>
-                <span class="icon-user"></span><a class="author" href="#">mch</a>&nbsp&nbsp;&nbsp;&nbsp;&nbsp;<span
-                    class="icon-time"></span><span class="time-dis">2017-11-27 16:25:35</span>
-                <div id="article3" class="main-text">voting. 1. You don't have to be a member to vote. 2. Do not vote
-                    for yourself and do not ask your friends to vote for you. 3. Anonymous vote is NOT allowed. 4. Vote
-                    based on the quality of the icons, not based on the TV shows. 5. Vote for your 4 FAVORITE ICONS (in
-                    order of preference), 1 BEST…
-                </div>
-            </article>
-            <article>
-                <h2>乔治娅11.27-12.3周运!</h2>
-                <span class="icon-user"></span><a class="author" href="#">mch</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
-                    class="icon-time"></span><span class="time-dis">2017-11-27 16:25:35</span>
-                <div id="article4" class="main-text">
-                    周，太阳、水星、金星和土星全部位于射手座。耶！大家都出去玩吧！不过，还有两件事值得注意：周五，暴烈的火星将会对冲变幻莫测的天王星。（哎呀！）第二天，幸运的木星又会和海王星形成三分相位。因此，这周的主题将是解放、独立、突发事件和压力的纾解--随之而来的是汹涌的怜悯心和对真相的诉求。对同情心的反馈象征着一个世界对灾难的回应…
-                </div>
-            </article>
-            <article>
-                <h2>Yoo Ah In Calls Out People Leaving Negative Comments Online + Moves To End…</h2>
-                <span class="icon-user"></span><a class="author" href="#">mch</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
-                    class="icon-time"></span><span class="time-dis">2017-11-27 16:25:35</span>
-                <div id="article5" class="main-text">Late at night on November 24, actor Yoo Ah In puzzled fans and
-                    lookers-on with his sudden tirade against people leaving negative comments about him online. On his
-                    personal Twitter account, he wrote, “ I’ll let you in on a great tip. If you don’t want to look at
-                    me,…
-                </div>
-            </article>
-            <article>
-                <h2>Challenge 192 - Voting</h2>
-                <span class="icon-user"></span><a class="author" href="#">mch</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
-                    class="icon-time"></span><span class="time-dis">2017-11-27 16:25:35</span>
-                <div id="article6" class="main-text">voting. 1. You don't have to be a member to vote. 2. Do not vote
-                    for yourself and do not ask your friends to vote for you. 3. Anonymous vote is NOT allowed. 4. Vote
-                    based on the quality of the icons, not based on the TV shows. 5. Vote for your 4 FAVORITE ICONS (in
-                    order of preference), 1 BEST…
-                </div>
-            </article>
             <div>
                 <h1>----End----</h1>
             </div>

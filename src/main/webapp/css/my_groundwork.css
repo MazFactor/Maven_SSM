@@ -107,3 +107,8 @@
 .icon-rotate-right:before, .icon-repeat:before {
     content: "\f01e"
 }
+
+.icon-plus:before {
+    content: "\f067";
+    font-size: medium;
+}
