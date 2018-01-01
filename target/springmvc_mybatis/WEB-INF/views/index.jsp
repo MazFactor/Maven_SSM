@@ -16,7 +16,6 @@
     <title>Page</title>
     <link rel="stylesheet" type="text/css" href="../../css/calendar.css">
     <link rel="stylesheet" type="text/css" href="../../css/my_groundwork.css">
-    <link rel="stylesheet" type="text/css" href="../../css/gh-buttons.css">
     <script type="text/javascript" src="../../js/Clock.js"></script>
     <script type="text/javascript" src="../../js/article.js"></script>
     <style type="text/css">
@@ -120,7 +119,6 @@
         #before-article {
             border-bottom: solid 1px #DAE3E6;
             text-align: right;
-            margin-bottom: 5px;
         }
 
         article {
@@ -196,12 +194,13 @@
             /*color: #00A3D9;*/
             /*font-size: 11px;*/
         /*}*/
-        /*#insertArticle{*/
-            /*!*display:block;*!*/
-            /*!*padding-left: 98%;*!*/
-            /*padding-bottom: 5px;*/
-            /*!*font-size: x-large;*!*/
-        /*}*/
+        #insertArticle{
+            display:block;
+            width: 25px;
+            padding-bottom: 5px;
+            font-size: x-large;
+            text-align: center;
+        }
     </style>
 </head>
 <body onload="showTime();">
@@ -232,10 +231,7 @@
     <div class="column-all">
         <!-- Left Part -->
         <div class="column-left">
-            <div id="before-article">
-                <%--<a id="insertArticle" href="edit" methods="get" >+</a>--%>
-                <a href="edit" class="button icon add">Add post</a>
-            </div>
+            <div id="before-article"><a id="insertArticle" href="edit" methods="get" >+</a></div>
             <c:forEach items="${articles}" var="article">
                 <article>
                     <h2>${article.subject}</h2>

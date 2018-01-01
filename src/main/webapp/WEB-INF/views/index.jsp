@@ -196,9 +196,10 @@
         /*}*/
         #insertArticle{
             display:block;
-            /*padding-left: 98%;*/
+            width: 25px;
             padding-bottom: 5px;
             font-size: x-large;
+            text-align: center;
         }
     </style>
 </head>

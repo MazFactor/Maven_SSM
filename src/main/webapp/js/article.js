@@ -1,3 +1,5 @@
-function add() {
-    window.location.href="edit";
+function addArticle() {
+    alert("add");
+    document.getElementById("articleForm").submit();
+    return false;
 }

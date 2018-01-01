@@ -47,8 +47,10 @@
     <link rel="stylesheet" type="text/css" href="../../css/calendar.css">
     <!-- Icons from GroundworkCss -->
     <link rel="stylesheet" type="text/css" href="../../css/edit.css">
-
+    <link rel="stylesheet" type="text/css" href="../../css/gh-buttons.css">
     <script type="text/javascript" src="../../js/Clock.js"></script>
+    <script type="text/javascript" src="../../js/article.js"></script>
+    <script type="text/javascript" src="../../utils/jquery/jquery.min.js"></script>
     <style type="text/css">
         * {
             -webkit-box-sizing: border-box;
@@ -165,7 +167,49 @@
             color: #168da8;
         }
 
+        .btn_submmit {
+            padding-left: 80%;
+            padding-top: 20px;
+        }
     </style>
+    <script type="text/javascript">
+        function addArticle() {
+            var title = document.getElementById("subject").value;
+            var content = document.getElementById("edit");
+
+            if (Trim(title.toString()).length === 0) {
+                alert("标题不能为空！")
+                return false;
+            }
+
+            if (Trim(content.innerText).length === 0) {
+                alert("内容不能为空！")
+                return false;
+            }
+            document.getElementById("articleForm").method = "post";
+            document.getElementById("articleForm").submit();
+            return false;
+        }
+
+        function Trim(str) {
+             var newStr = str.replace(/<[^>]+>/g, "");//去掉所有的html标记
+            return (newStr.replace(/&nbsp;/g, "")).trim(); //去掉所有的&nbsp;
+        }
+
+        function trimRight(s) {
+            if (s === null) return "";
+            var whitespace = new String(" \t\n\r");
+            var str = new String(s);
+            if (whitespace.indexOf(str.charAt(str.length - 1)) != -1) {
+                var i = str.length - 1;
+                while (i >= 0 && whitespace.indexOf(str.charAt(i)) != -1) {
+                    i--;
+                }
+                str = str.substring(0, i + 1);
+            }
+            return str;
+        }
+    </script>
 </head>
 <body onload="showTime()">
 
@@ -195,7 +239,7 @@
     <div class="column-all">
         <!-- Left Part -->
         <div class="column-left">
-            <form action="addArticle" method="post" id="post">
+            <form action="addArticle" method="post" id="articleForm">
                 <div class="b-updatepage-subjectbox">
                     <dl class=" b-updatepage-field b-updatepage-field-subject ">
                         <dt class="b-updatepage-field-head">
@@ -210,8 +254,12 @@
                         </dd>
                     </dl>
                 </div>
-                <textarea id="edit" name="content"></textarea>
-                <button type="submit">Submit</button>
+                <div>
+                    <textarea id="edit" name="content"></textarea>
+                </div>
+                <div class="btn_submmit">
+                    <a href="#" class="button" onclick="addArticle();return false;">Post comment (link)</a>
+                </div>
             </form>
 
             <!-- Include jQuery. -->
