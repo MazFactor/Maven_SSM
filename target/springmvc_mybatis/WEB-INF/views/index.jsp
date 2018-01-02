@@ -16,6 +16,7 @@
     <title>Page</title>
     <link rel="stylesheet" type="text/css" href="../../css/calendar.css">
     <link rel="stylesheet" type="text/css" href="../../css/my_groundwork.css">
+    <link rel="stylesheet" type="text/css" href="../../utils/Flat-UI-master/css/flat-ui.css">
     <script type="text/javascript" src="../../js/Clock.js"></script>
     <script type="text/javascript" src="../../js/article.js"></script>
     <style type="text/css">
@@ -184,10 +185,11 @@
 
         a {
             text-decoration: none;
+            color: #43857b;
         }
 
         a:hover {
-            color: #168da8;
+            color: #409e94;
         }
 
         /*.author {*/
@@ -231,14 +233,12 @@
     <div class="column-all">
         <!-- Left Part -->
         <div class="column-left">
-            <div id="before-article"><a id="insertArticle" href="edit" methods="get" >+</a></div>
+            <div id="before-article"><a id="insertArticle" href="add" methods="get" class="fui-plus-circle"></a></div>
             <c:forEach items="${articles}" var="article">
                 <article>
-                    <h2>${article.subject}</h2>
+                    <h2><a href="#" methods="get" onclick="window.location.href = 'details?id= + ${article.id}';return false;">${article.subject}</a></h2>
                     <span class="icon-user"></span>
-                    <%--<a class="author" href="#">--%>
                     <span>${article.authorId}&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                    <%--</a>--%>
                     <span class="icon-time"></span><span><fmt:formatDate value="${article.create_time }" pattern="yyyy-MM-dd HH:mm:ss"/></span>
                     <c:choose>
                         <c:when test="${fn:length(article.content)>200}">

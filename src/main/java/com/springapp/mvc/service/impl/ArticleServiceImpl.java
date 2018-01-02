@@ -28,4 +28,9 @@ public class ArticleServiceImpl implements ArticleService{
     public void addArticle(Article article) {
         articleDao.addArticle(article);
     }
+
+    @Override
+    public void updateArticle(Article article) {
+        articleDao.updateArticle(article);
+    }
 }

@@ -49,7 +49,7 @@
     <link rel="stylesheet" type="text/css" href="../../css/edit.css">
     <link rel="stylesheet" type="text/css" href="../../css/gh-buttons.css">
     <script type="text/javascript" src="../../js/Clock.js"></script>
-    <script type="text/javascript" src="../../js/article.js"></script>
+    <%--<script type="text/javascript" src="../../js/article.js"></script>--%>
     <script type="text/javascript" src="../../utils/jquery/jquery.min.js"></script>
     <style type="text/css">
         * {
@@ -173,7 +173,7 @@
         }
     </style>
     <script type="text/javascript">
-        function addArt() {
+        function updateArt() {
             var title = document.getElementById("subject").value;
             var content = document.getElementById("edit");
 
@@ -188,12 +188,11 @@
             }
             document.getElementById("articleForm").method = "post";
             document.getElementById("articleForm").submit();
-            return false;
         }
 
 
         function Trim(str) {
-             var newStr = str.replace(/<[^>]+>/g, "");//去掉所有的html标记
+            var newStr = str.replace(/<[^>]+>/g, "");//去掉所有的html标记
             return (newStr.replace(/&nbsp;/g, "")).trim(); //去掉所有的&nbsp;
         }
 
@@ -212,7 +211,7 @@
         }
     </script>
 </head>
-<body onload="showTime()">
+<body onload="showTime();">
 
 <!--Header Begin-->
 <div id="header">
@@ -240,7 +239,8 @@
     <div class="column-all">
         <!-- Left Part -->
         <div class="column-left">
-            <form action="addArticle" method="post" id="articleForm">
+            <form action="editArticle" method="post" id="articleForm">
+                <input type="hidden" name="id" value="${article.id}">
                 <div class="b-updatepage-subjectbox">
                     <dl class=" b-updatepage-field b-updatepage-field-subject ">
                         <dt class="b-updatepage-field-head">
@@ -250,16 +250,16 @@
                         </dt>
                         <dd class="b-updatepage-field-body" data-widget="restorable"
                             data-widget-options='{"name":"subject"}'>
-                            <input type="text" name="subject" id="subject"
+                            <input type="text" name="subject" id="subject" value="${article.subject}"
                                    class="b-updatepage-input b-updatepage-input-subject" tabindex="40" maxlength="100">
                         </dd>
                     </dl>
                 </div>
                 <div>
-                    <textarea id="edit" name="content"></textarea>
+                    <textarea id="edit" name="content">${article.content}</textarea>
                 </div>
                 <div class="btn_submmit">
-                    <a href="#" class="button" onclick="addArt();return false;">Post comment (link)</a>
+                    <a href="#" class="button" onclick="updateArt();return false;">SUBMIT</a>
                 </div>
             </form>
 

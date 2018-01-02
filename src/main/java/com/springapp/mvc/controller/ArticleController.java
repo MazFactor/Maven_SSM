@@ -40,9 +40,9 @@ public class ArticleController {
         return "index";
     }
 
-    @RequestMapping("edit")
+    @RequestMapping("add")
     public String toEdit(){
-        return "edit";
+        return "add";
     }
     @RequestMapping("addArticle")
     public String addArticle(HttpServletRequest request, HttpServletResponse response)throws Exception {
@@ -60,4 +60,49 @@ public class ArticleController {
         articleService.addArticle(article);
         return "redirect:/";
     }
+
+    @RequestMapping("details")
+    public String getArticleById(Model m,int id){
+        Article article = articleService.getArticleById(id);
+        if(article != null){
+            m.addAttribute("details", article);
+            return "details";
+        }
+        return "noDetails";
+    }
+
+    @RequestMapping("toEditArticle")
+    public String toEditArticle(Model model, HttpServletRequest request){
+        Article article = null;
+        if (request.getParameter("id") != null){
+            article = articleService.getArticleById(Integer.parseInt(request.getParameter("id")));
+
+        }
+        if(article != null) {
+            model.addAttribute("article", article);
+            return "edit";
+        }
+        else {
+            return "redirect:/";
+        }
+    }
+
+    @RequestMapping("editArticle")
+    public String editArt(Model model, HttpServletRequest request){
+        Article article = new Article();
+        int id = Integer.parseInt(request.getParameter("id"));
+        String subject = request.getParameter("subject");
+        String content = request.getParameter("content");
+        String tags = request.getParameter("tags");
+
+        article.setId(id);
+        article.setSubject(subject);
+        article.setContent(content);
+        article.setTags(tags);
+        article.setModify_time(new Date()); //更新modify_time为当前系统日期
+        articleService.updateArticle(article);
+        model.addAttribute("details", articleService.getArticleById(id));
+        return "details";
+    }
+
 }

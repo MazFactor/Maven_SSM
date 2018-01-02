@@ -22,4 +22,7 @@
     <insert id="addArticle" parameterType="Article">
         INSERT INTO article (subject, content, tags, authorId, create_time, modify_time) VALUES (#{subject}, #{content}, #{tags}, #{authorId}, #{create_time}, #{modify_time})
     </insert>
+    <update id="updateArticle" parameterType="Article">
+        UPDATE article SET subject=#{subject}, content=#{content}, tags=#{tags} WHERE id=#{id}
+    </update>
 </mapper>
