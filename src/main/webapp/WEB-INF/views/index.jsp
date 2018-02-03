@@ -29,12 +29,10 @@
         }
 
         html, body {
-            margin: 0;
-            padding: 0;
-
-            position: absolute;
-            width: 100%;
+            /*position: absolute;*/
+            /*width: 100%;*/
             min-height: 100%;
+            background: #fbfbf2;
         }
 
         #header {
@@ -46,8 +44,13 @@
             position: relative;
             background-color: #004359;
             padding-top: 16px;
-            border: 6px solid #ffffff;
+            border: 6px solid #fbfbf2;
             border-width: 6px 0 0;
+        }
+        .headerwrap {
+            margin: 0 auto;
+            height: 45px;
+            background: url(../../img/headerbg.png) top center repeat-x;
         }
 
         #nav-sec {
@@ -93,10 +96,9 @@
         /*}*/
 
         #content {
-            background-color: #ffffff;
             width: 100%;
             min-height: 100%;
-
+            margin-top: 60px;
             /*height: auto !important;*/
             /*height: 100%; !*ie6不识别min-height,如上述处理*!*/
         }
@@ -104,7 +106,10 @@
         .column-all {
             display: -webkit-flex;
             display: flex;
-            margin: 80px 20px 80px 90px;
+            min-height: 100%;
+            margin: auto;
+            height: 100%;
+            max-width: 1100px;
             /*height: 100%;*/
             /*background-color: #89b2a1;*/
         }
@@ -118,16 +123,16 @@
         }
 
         #before-article {
-            border-bottom: solid 1px #DAE3E6;
-            text-align: right;
+            /*border-bottom: solid 1px #DAE3E6;*/
+            /*text-align: right;*/
         }
 
         article {
-            border-bottom: solid 1px #DAE3E6;
-            border-right: solid 1px #DAE3E6;
+            /*border-bottom: solid 1px #DAE3E6;*/
+            /*border-right: solid 1px #DAE3E6;*/
             padding-top: 13px;
             padding-bottom: 30px;
-            padding-right: 40px;
+            /*padding-right: 40px;*/
         }
 
         span {
@@ -156,13 +161,20 @@
         .column-right {
             -webkit-flex: 1;
             flex: 1;
-            /*-webkit-align-items: center;*/
-            /*align-items: center;*/
-            /*-webkit-justify-content: center;*/
-            /*justify-content: center;*/
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
             /*border: solid 1px #DAE3E6;*/
-            margin-top: 36px;
+            /*margin-top: 36px;*/
+        }
 
+        .footertop {
+            width: 100%;
+            background: transparent url(../../img/footertop.png) top center no-repeat;
+            clear: both;
+            height: 78px;
+            margin: 0 auto;
         }
 
         #footer {
@@ -227,7 +239,7 @@
         </a>
     </div>
 </div>
-
+<div class="headerwrap"></div>
 <!--Content Begin-->
 <div id="content">
     <div class="column-all">
@@ -392,7 +404,7 @@
     </div>
 </div>
 
-
+<div class="footertop"></div>
 <!-- Footer -->
 <div id="footer">
     <p><br/>

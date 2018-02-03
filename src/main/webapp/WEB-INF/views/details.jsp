@@ -32,12 +32,8 @@
         }
 
         html, body {
-            margin: 0;
-            padding: 0;
-
-            position: absolute;
-            width: 100%;
-            min-height: 100%;
+            height: 100%;
+            background: #fbfbf2
         }
 
         #header {
@@ -51,6 +47,12 @@
             padding-top: 16px;
             border: 6px solid #ffffff;
             border-width: 6px 0 0;
+        }
+
+        .headerwrap {
+            margin: 0 auto;
+            height: 45px;
+            background: url(../../img/headerbg.png) top center repeat-x;
         }
 
         #nav-sec {
@@ -96,7 +98,6 @@
         /*}*/
 
         #content {
-            background-color: #ffffff;
             width: 100%;
             min-height: 100%;
             /*height: auto !important;*/
@@ -106,22 +107,37 @@
         .column-all {
             display: -webkit-flex;
             display: flex;
-            margin: 80px 20px 80px 90px;
-            /*height: 100%;*/
+            margin: auto;
+            height: 100%;
             /*background-color: #89b2a1;*/
+            max-width: 1100px;
         }
 
         .column-left {
             -webkit-flex: initial;
             flex: initial;
-            width: 65%;
-            min-width: 100px;
+            width: 640px;
+            /*max-width: 640px;*/
+            /*min-width: 100px;*/
+            margin: 60px 0 60px 0;
             /*border-right: solid 1px #DAE3E6;*/
         }
 
+        .column-right {
+            -webkit-flex: 1;
+            flex: 1;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            min-width: 420px;
+            margin: 60px 0 60px 40px;
+            /*border-top: solid 1px #DAE3E6;*/
+        }
+
         article {
-            border-bottom: solid 1px #DAE3E6;
-            border-right: solid 1px #DAE3E6;
+            /*border-bottom: solid 1px #DAE3E6;*/
+            /*border-right: solid 1px #DAE3E6;*/
             padding-top: 13px;
             padding-bottom: 30px;
             padding-right: 40px;
@@ -150,10 +166,12 @@
             color: rgba(11, 16, 17, 0.8);
         }
 
-        .column-right {
-            -webkit-flex: 1;
-            flex: 1;
-            margin-top: 36px;
+        .footertop {
+            width: 100%;
+            background: transparent url(../../img/footertop.png) top center no-repeat;
+            clear: both;
+            height: 78px;
+            margin: 0 auto;
         }
 
         #footer {
@@ -213,7 +231,7 @@
         </a>
     </div>
 </div>
-
+<div class="headerwrap"></div>
 <!--Content Begin-->
 <div id="content">
     <div class="column-all">
@@ -236,9 +254,6 @@
                     <div id="detailsContent" class="main-text">${details.content}</div>
                 </article>
             </form>
-            <div>
-                <h1>----End----</h1>
-            </div>
         </div>
 
 
@@ -378,7 +393,7 @@
     </div>
 </div>
 
-
+<div class="footertop"></div>
 <!-- Footer -->
 <div id="footer">
     <p><br/>

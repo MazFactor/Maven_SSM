@@ -62,6 +62,7 @@
 
         html, body {
             height: 100%;
+            background: #fbfbf2
         }
 
         #header {
@@ -73,8 +74,14 @@
             position: relative;
             background-color: #004359;
             padding-top: 16px;
-            border: 6px solid #ffffff;
+            border: 6px solid #fbfbf2;
             border-width: 6px 0 0;
+        }
+
+        .headerwrap {
+            margin: 0 auto;
+            height: 45px;
+            background: url(../../img/headerbg.png) top center repeat-x;
         }
 
         #nav-sec {
@@ -105,7 +112,6 @@
         }
 
         #content {
-            background-color: #ffffff;
             width: 100%;
             min-height: 100%;
 
@@ -116,18 +122,17 @@
         .column-all {
             display: -webkit-flex;
             display: flex;
-            margin: 80px 20px 80px 90px;
-            /*height: 100%;*/
-            background-color: #ffffff;
+            margin: auto;
+            height: 100%;
+            max-width: 1100px;
         }
 
         .column-left {
             -webkit-flex: initial;
             flex: initial;
-            width: 65%;
+            max-width: 640px;
             min-width: 100px;
-            border-right: solid 1px #DAE3E6;
-            padding-right: 30px;
+            margin: 60px 0 60px 0;
         }
 
         .column-right {
@@ -137,7 +142,15 @@
             align-items: center;
             -webkit-justify-content: center;
             justify-content: center;
-            border-top: solid 1px #DAE3E6;
+            margin: 60px 0 60px 40px;
+        }
+
+        .footertop {
+            width: 100%;
+            background: transparent url(../../img/footertop.png) top center no-repeat;
+            clear: both;
+            height: 78px;
+            margin: 0 auto;
         }
 
         #footer {
@@ -233,7 +246,7 @@
         </a>
     </div>
 </div>
-
+<div class="headerwrap"></div>
 <!--Content-->
 <div id="content">
     <div class="column-all">
@@ -320,7 +333,7 @@
                         language: 'zh_cn',
                         saveInterval: 0,//不自动保存，默认10000
                         theme: "red",
-                        height: "850px",
+                        height: "600px",
                         toolbarBottom: false,//默认
                         toolbarButtonsMD: toolbarButtonsMD,
                         toolbarButtonsSM: toolbarButtonsSM,
@@ -349,7 +362,6 @@
                         <script type="text/javascript">
                             var date = new Date();
                             var curYear = date.getFullYear();
-
                             var curMonth = date.getMonth();
                             var monthText = "";
 
@@ -396,16 +408,25 @@
                             document.write("<li>" + monthText + "<br><span style='color: #FFFFFF; font-size:16px'>" + curYear + "</span></li>");
                         </script>
                     </ul>
+                    <!--<ul>-->
+                    <!--<li class="prev">&#10094;</li>-->
+                    <!--<li class="next">&#10095;</li>-->
+                    <!--<li>-->
+
+                    <!--August<br>-->
+                    <!--<span style="font-size:16px">2017</span>-->
+                    <!--</li>-->
+                    <!--</ul>-->
                 </div>
 
                 <ul class="weekdays">
+                    <li>Su</li>
                     <li>Mo</li>
                     <li>Tu</li>
                     <li>We</li>
                     <li>Th</li>
                     <li>Fr</li>
                     <li>Sa</li>
-                    <li>Su</li>
                 </ul>
 
                 <ul class="days">
@@ -466,7 +487,7 @@
 
 </div>
 
-
+<div class="footertop"></div>
 <!-- Footer -->
 <div id="footer">
     <p><br/>
