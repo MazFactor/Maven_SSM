@@ -1,19 +1,12 @@
 /*-- Calendar --*/
-* {
-    box-sizing: border-box;
-}
-
-ul {
-    list-style-type: none;
-}
-
-body {
-    font-family: Verdana, sans-serif;
-}
+/*ul {*/
+    /*list-style-type: none;*/
+/*}*/
 
 #Calendar{
-    width: 100%;
-    padding-left: 30px;
+    width: 420px;
+    padding-left: 0;
+    margin-top: 20px;
     padding-bottom: 20px;
     /*border-bottom: solid 1px #DAE3E6;*/
 }
@@ -28,7 +21,6 @@ body {
 .month ul {
     margin: 0;
     padding: 0;
-
 }
 
 .month ul li {
@@ -52,6 +44,7 @@ body {
     padding: 5px 0;
     background-color: #ddd;
     width: 100%;
+    list-style-type: none
 }
 
 .weekdays li {
@@ -65,6 +58,7 @@ body {
     padding: 10px 0;
     background: #eee;
     width: 100%;
+    list-style-type: none
 }
 
 .days li {

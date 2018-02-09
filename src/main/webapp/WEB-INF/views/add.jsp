@@ -11,36 +11,36 @@
     <meta charset="UTF-8">
     <title>Page</title>
 
-    <!--Froala-->
+    <!--froala_editor_2.7.4-->
 
     <!-- Include Font Awesome. -->
-    <link href="../../utils/Froala/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../utils/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
     <!-- Include Editor style. -->
-    <link href="../../utils/Froala/css/froala_editor.min.css" rel="stylesheet" type="text/css"/>
-    <link href="../../utils/Froala/css/froala_style.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../utils/froala_editor_2.7.4/css/froala_editor.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../utils/froala_editor_2.7.4/css/froala_style.min.css" rel="stylesheet" type="text/css"/>
 
     <!-- Include Code Mirror style -->
-    <link rel="stylesheet" href="../../utils/Froala/css/codemirror.min.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/codemirror.min.css">
 
     <!-- Include Editor Plugins style. -->
-    <link rel="stylesheet" href="../../utils/Froala/css/plugins/char_counter.css">
-    <link rel="stylesheet" href="../../utils/Froala/css/plugins/code_view.css">
-    <link rel="stylesheet" href="../../utils/Froala/css/plugins/colors.css">
-    <link rel="stylesheet" href="../../utils/Froala/css/plugins/emoticons.css">
-    <link rel="stylesheet" href="../../utils/Froala/css/plugins/file.css">
-    <link rel="stylesheet" href="../../utils/Froala/css/plugins/fullscreen.css">
-    <link rel="stylesheet" href="../../utils/Froala/css/plugins/image.css">
-    <link rel="stylesheet" href="../../utils/Froala/css/plugins/image_manager.css">
-    <link rel="stylesheet" href="../../utils/Froala/css/plugins/line_breaker.css">
-    <link rel="stylesheet" href="../../utils/Froala/css/plugins/quick_insert.css">
-    <link rel="stylesheet" href="../../utils/Froala/css/plugins/table.css">
-    <link rel="stylesheet" href="../../utils/Froala/css/plugins/video.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/char_counter.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/code_view.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/colors.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/emoticons.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/file.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/fullscreen.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/image.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/image_manager.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/line_breaker.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/quick_insert.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/table.css">
+    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/video.css">
 
     <!-- CSS rules for styling the element inside the editor such as p, h1, h2, etc. -->
-    <link href="../../utils/Froala/css/froala_style.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../utils/froala_editor_2.7.4/css/froala_style.min.css" rel="stylesheet" type="text/css"/>
 
-    <!--Froala End-->
+    <!--froala_editor_2.7.4 End-->
 
 
     <!-- Calendar & Clock -->
@@ -57,7 +57,7 @@
             -moz-box-sizing: border-box;
             box-sizing: border-box;
             margin: 0;
-            padding: 0;
+            /*padding: 0;*/
         }
 
         html, body {
@@ -114,7 +114,7 @@
         #content {
             width: 100%;
             min-height: 100%;
-
+            background-color: #FBFBF2;
             /*height: auto !important;*/
             /*height: 100%; !*ie6不识别min-height,如上述处理*!*/
         }
@@ -210,7 +210,7 @@
 
 
         function Trim(str) {
-             var newStr = str.replace(/<[^>]+>/g, "");//去掉所有的html标记
+            var newStr = str.replace(/<[^>]+>/g, "");//去掉所有的html标记
             return (newStr.replace(/&nbsp;/g, "")).trim(); //去掉所有的&nbsp;
         }
 
@@ -284,71 +284,60 @@
             <script type="text/javascript" src="../../utils/jquery/jquery.min.js"></script>
 
             <!-- Include JS files. -->
-            <script type="text/javascript" src="../../utils/Froala/js/froala_editor.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/froala_editor.min.js"></script>
 
             <!-- Include Code Mirror. -->
             <script type="text/javascript" src="../../utils/jquery/codemirror.min.js"></script>
             <script type="text/javascript" src="../../utils/jquery/xml.min.js"></script>
 
             <!-- Include Plugins. -->
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/align.min.js"></script>
-            <!--<script type="text/javascript" src="utils/Froala/js/plugins/char_counter.min.js"></script>-->
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/code_beautifier.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/code_view.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/colors.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/emoticons.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/entities.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/file.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/font_family.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/font_size.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/fullscreen.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/image.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/image_manager.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/inline_style.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/line_breaker.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/link.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/lists.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/paragraph_format.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/paragraph_style.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/quick_insert.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/quote.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/table.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/save.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/url.min.js"></script>
-            <script type="text/javascript" src="../../utils/Froala/js/plugins/video.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/align.min.js"></script>
+            <!--<script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/char_counter.min.js"></script>-->
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/code_beautifier.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/code_view.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/colors.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/emoticons.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/entities.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/file.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/font_family.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/font_size.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/fullscreen.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/image.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/image_manager.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/inline_style.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/line_breaker.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/link.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/lists.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/paragraph_format.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/paragraph_style.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/quick_insert.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/quote.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/table.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/save.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/url.min.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/video.min.js"></script>
 
             <!-- Include Language file if we want to use it. -->
-            <script type="text/javascript" src="../../utils/Froala/js/languages/ro.js"></script>
+            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/languages/ro.js"></script>
 
             <!-- Initialize the editor. -->
             <script>
                 $(function () {
-                    //超大屏幕
-                    var toolbarButtons = ['fullscreen', 'bold', 'italic', 'underline', 'strikeThrough', 'subscript', 'superscript', 'fontFamily', 'fontSize', '|', 'color', 'emoticons', 'inlineStyle', 'paragraphStyle', '|', 'paragraphFormat', 'align', 'formatOL', 'formatUL', 'outdent', 'indent', 'quote', 'insertHR', '-', 'insertLink', 'insertImage', 'insertVideo', 'insertFile', 'insertTable', 'undo', 'redo', 'clearFormatting', 'selectAll', 'html'];
-                    //大屏幕
-                    var toolbarButtonsMD = ['fullscreen', 'bold', 'italic', 'underline', 'fontFamily', 'fontSize', 'color', 'paragraphStyle', 'paragraphFormat', 'align', 'formatOL', 'formatUL', 'outdent', 'indent', 'quote', 'insertHR', 'insertLink', 'insertImage', 'insertVideo', 'insertFile', 'insertTable', 'undo', 'redo', 'clearFormatting'];
-                    //小屏幕
-                    var toolbarButtonsSM = ['fullscreen', 'bold', 'italic', 'underline', 'fontFamily', 'fontSize', 'insertLink', 'insertImage', 'insertTable', 'undo', 'redo'];
-                    //手机
-                    var toolbarButtonsXS = ['bold', 'italic', 'fontFamily', 'fontSize', 'undo', 'redo'];
                     $('#edit').froalaEditor({
-                        charCounterCount: true,//默认
-                        charCounterMax: -1,//默认
-                        language: 'zh_cn',
-                        saveInterval: 0,//不自动保存，默认10000
-                        theme: "red",
                         height: "600px",
-                        toolbarBottom: false,//默认
-                        toolbarButtonsMD: toolbarButtonsMD,
-                        toolbarButtonsSM: toolbarButtonsSM,
-                        toolbarButtonsXS: toolbarButtonsXS,
-                        toolbarInline: false,//true选中设置样式,默认false
                         toolbarSticky: false,
-                        imageUploadMethod: 'POST',
-                        imageUploadURL: './lib/imgUpload.php',
-                        //imageUploadParam         : 'upImg',
-                        imageUploadParams: {id: "edit"},
-                        placeholderText: '博客从此开始',
+                        theme: 'gray',
+                        zIndex: 2001,
+                        fontFamily: {
+                            "SimHei": '黑体',
+                            "SimSun": '宋体',
+                            "KaiTi": '楷体',
+                            "YouYuan": '幼圆',
+                            "Arial": 'Arial',
+                            "Arial Black": 'Arial Black',
+                            "Times New Roman": 'Times New Roman',
+                            "Verdana": 'Verdana'
+                        }
                     })
                 });
             </script>

@@ -32,19 +32,19 @@
     padding: 13px;
     border: 1px solid #CED6D9;
     font: 1.133em/1.2 ProximaNova, Helvetica, Arial, sans-serif;
-    background: #F7F9FA;
-    color: #242F33
+    /*background: #F7F9FA;*/
+    /*color: #242F33*/
 }
 
-.b-updatepage-input:focus {
-    border-color: #85C1FF
-}
+/*.b-updatepage-input:focus {*/
+    /*border-color: #85C1FF*/
+/*}*/
 
-.b-updatepage-input[disabled] {
-    pointer-events: none;
-    background: #E6E6E6;
-    color: #AAB7BB
-}
+/*.b-updatepage-input[disabled] {*/
+    /*pointer-events: none;*/
+    /*background: #E6E6E6;*/
+    /*color: #AAB7BB*/
+/*}*/
 
 .b-updatepage-subjectbox .b-updatepage-input {
     width: 100%;
@@ -101,4 +101,14 @@
     box-sizing: border-box;
     resize: vertical;
     font: 1em/1.2 ProximaNova, Helvetica, sans-serif
+}
+
+.message.error, [role~=alert].error, [role~=status].error {
+    background: #f2dede;
+    color: #b94a48;
+    border-color: #eed3d7
+}
+
+.message.error:before, [role~=alert].error:before, [role~=status].error:before {
+    content: "\f057"
 }

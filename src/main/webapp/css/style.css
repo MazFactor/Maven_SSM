@@ -1,0 +1,113 @@
+html, body {
+	/*height: 100%;*/
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*font-family: Raleway, sans-serif;*/
+}
+
+* {
+	/*-webkit-box-sizing:border-box;*/
+	/*-moz-box-sizing:border-box;*/
+	/*box-sizing:border-box;*/
+}
+
+h3, h4 {
+	margin:0;
+}
+p {
+	/*margin:0 0 24px 0;*/
+}
+.map {
+	height:300px;
+	width: 420px;
+	border:16px solid #fff;
+}
+.map-legend {
+	text-align:center;
+}
+.location {
+	padding:24px;
+	border-left:16px solid #fff;
+	border-right:16px solid #fff;
+	background-size:cover;
+	background-position:center center;
+	position:relative;
+	color:white;
+}
+.location-1 {
+	border-bottom:8px solid white;
+	background-color:#554738;
+	background-image:url( 'images/coffee_bg.jpg');
+}
+.location-2 {
+	border-top:8px solid white;
+	background-color:#383838;
+	background-image:url( 'images/office_bg.jpg');
+}
+
+.location::after {
+	content:"";
+	background-color:inherit;
+	opacity:.65;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+.location--inner {
+	position:relative;
+	z-index:1;
+}
+.location img {
+	display:inline-block;
+	margin:24px 0 12px;
+	/* setting width and height instead results in a strange behavior in Safari */
+	-webkit-transform:scale(2);
+	transform:scale(2);	
+}
+
+@media screen and (min-width: 1024px) {
+	
+	.map, .map-legend {
+		height:450px;
+	}
+	.desk-three-forth {
+		float: left;
+		width:100%;
+	}
+	.desk-one-forth {
+		width:100%;
+	}
+	.map-legend, .location {
+		display:flex;
+		flex-direction:column;
+	}
+	.location {
+		border-left:none;
+		min-height:50%;
+		justify-content:center;
+		align-items:center	
+	}
+	.location-1 {
+		border-top:16px solid white;
+	}
+	.location-2 {
+		border-bottom:16px solid white;
+	}
+}
+
+/* if using sprites */
+/*.marker-icon {*/
+	/*background-image:url("images/markers/svg/Arrows.svg");*/
+	/*display:inline-block;*/
+	/*width:48px;*/
+	/*height:48px;*/
+	/*margin:24px 0 12px;*/
+	/*!* setting background-size instead results in a strange behavior in Safari *!*/
+	/*-webkit-transform:scale(2);*/
+	/*transform:scale(2);*/
+/*}*/
+/*.marker-office {*/
+	/*background-position:48px 0;*/
+/*}*/
