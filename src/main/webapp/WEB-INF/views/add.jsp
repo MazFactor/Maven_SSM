@@ -349,7 +349,7 @@
             <!-- Calendar -->
             <div id="Calendar">
                 <div class="month">
-                    <ul>
+                    <ul style="list-style-type: none">
                         <li class="prev">&#10094;</li>
                         <li class="next">&#10095;</li>
                         <script type="text/javascript">

@@ -7,275 +7,198 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39863eb6-1799-464e-bc0a-fd1f072f6828" name="Default" comment="index.jsp连接数据库成功！">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/License.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/codemirror.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/froala_editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/froala_editor.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/froala_editor.pkgd.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/froala_editor.pkgd.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/froala_style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/froala_style.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/char_counter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/char_counter.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/code_view.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/code_view.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/colors.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/colors.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/draggable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/draggable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/emoticons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/emoticons.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/file.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/file.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/fullscreen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/fullscreen.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/image.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/image.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/image_manager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/image_manager.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/line_breaker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/line_breaker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/quick_insert.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/quick_insert.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/table.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/table.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/video.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/plugins/video.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/themes/dark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/themes/dark.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/themes/gray.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/themes/gray.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/themes/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/themes/red.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/themes/royal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/css/themes/royal.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/at.js/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/boostrap/content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/boostrap/lists.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/boostrap/modal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/colors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/core.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/direction_rtl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/disable_edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/emoticons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/enter_br.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/enter_div.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/enter_p.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/events/blur_focus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/events/content_changed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/events/drop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/events/image_removed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/file_s3_upload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/font_family.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/full.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/full_br.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/full_page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/full_page_bottom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/iframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/image_manager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/image_s3_upload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/init_destroy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/init_inside_iframe/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/init_inside_iframe/content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/init_inside_iframe/inline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/init_on_button.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/init_on_click/full.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/init_on_click/full_page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/init_on_click/toolbar_inline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/init_on_click/two_editors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/init_on_h1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/init_on_image.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/init_on_link.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/jquery_mobile/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/jquery_ui/modal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/language.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/line_breaker.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/live_preview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/require_js/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/require_js/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/require_js/js/lib/require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/scrollable_container.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/show_selection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/size/height.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/size/max_height.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/size/min_height.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/size/width.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/sticky_toolbar/bottom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/sticky_toolbar/bottom_offset.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/sticky_toolbar/bottom_offset_scrollable_container.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/sticky_toolbar/bottom_scrollable_container.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/sticky_toolbar/top.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/sticky_toolbar/top_offset.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/sticky_toolbar/top_offset_scrollable_container.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/sticky_toolbar/top_scrollable_container.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/textarea.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/themes/dark_theme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/themes/gray_theme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/themes/red_theme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/themes/royal_theme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/toolbar_container.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/toolbar_container_inline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/toolbar_inline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/toolbar_inline_two.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/two_instances.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/html/z_index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/img/photo1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/froala_editor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/froala_editor.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/bs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/en_ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/en_gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/me.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/pt_br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/pt_pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/ua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/zh_cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/languages/zh_tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/align.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/char_counter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/code_beautifier.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/code_view.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/colors.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/draggable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/emoticons.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/entities.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/file.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/font_family.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/font_size.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/forms.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/fullscreen.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/image.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/image_manager.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/inline_style.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/line_breaker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/link.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/lists.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/paragraph_format.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/paragraph_style.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/quick_insert.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/quote.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/save.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/table.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/url.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/js/plugins/video.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Froala/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/css/groundwork.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/museo-slab-500-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/museo-slab-500-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/museo-slab-500-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/museo-slab-500-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/quicksand-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/quicksand-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/quicksand-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/quicksand-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-script-bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-script-bold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-script-bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-script-bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-script-light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-script-light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-script-light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-script-light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-script-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-script-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-script-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/redacted-script-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/sourcesanspro-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/sourcesanspro-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/sourcesanspro-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/fonts/sourcesanspro-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/icons/icons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/jquery/codemirror.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/utils/jquery/xml.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/css/groundwork.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/museo-slab-500-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/museo-slab-500-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/museo-slab-500-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/museo-slab-500-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/quicksand-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/quicksand-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/quicksand-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/quicksand-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-script-bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-script-bold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-script-bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-script-bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-script-light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-script-light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-script-light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-script-light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-script-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-script-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-script-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/redacted-script-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/sourcesanspro-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/sourcesanspro-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/sourcesanspro-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/fonts/sourcesanspro-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/icons/icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/codemirror.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/froala_editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/froala_editor.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/froala_editor.pkgd.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/froala_editor.pkgd.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/froala_style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/froala_style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/char_counter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/char_counter.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/code_view.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/code_view.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/colors.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/colors.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/draggable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/draggable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/emoticons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/emoticons.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/file.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/file.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/fullscreen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/fullscreen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/image.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/image.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/image_manager.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/image_manager.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/line_breaker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/line_breaker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/quick_insert.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/quick_insert.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/table.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/table.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/video.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/video.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/dark.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/gray.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/gray.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/red.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/royal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/royal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/at.js/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/boostrap/content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/boostrap/lists.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/boostrap/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/colors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/core.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/direction_rtl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/disable_edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/emoticons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/enter_br.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/enter_div.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/enter_p.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/events/blur_focus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/events/content_changed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/events/drop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/events/image_removed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/file_s3_upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/font_family.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/full.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/full_br.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/full_page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/full_page_bottom.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/iframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/image_manager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/image_s3_upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_destroy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_inside_iframe/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_inside_iframe/content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_inside_iframe/inline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_button.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_click/full.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_click/full_page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_click/toolbar_inline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_click/two_editors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_h1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_link.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/jquery_mobile/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/jquery_ui/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/language.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/line_breaker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/live_preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/require_js/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/require_js/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/require_js/js/lib/require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/scrollable_container.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/show_selection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/size/height.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/size/max_height.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/size/min_height.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/size/width.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/bottom.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/bottom_offset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/bottom_offset_scrollable_container.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/bottom_scrollable_container.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/top.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/top_offset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/top_offset_scrollable_container.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/top_scrollable_container.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/textarea.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/themes/dark_theme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/themes/gray_theme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/themes/red_theme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/themes/royal_theme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/toolbar_container.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/toolbar_container_inline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/toolbar_inline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/toolbar_inline_two.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/two_instances.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/z_index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/img/photo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/froala_editor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/froala_editor.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/en_ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/en_gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/me.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/pt_br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/pt_pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/ua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/zh_cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/zh_tw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/align.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/char_counter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/code_beautifier.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/code_view.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/colors.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/draggable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/emoticons.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/entities.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/file.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/font_family.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/font_size.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/forms.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/fullscreen.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/image.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/image_manager.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/inline_style.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/line_breaker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/link.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/lists.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/paragraph_format.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/paragraph_style.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/quick_insert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/quote.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/save.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/table.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/url.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/video.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/package.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/calendar.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/calendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/edit.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/edit.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/my_groundwork.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/my_groundwork.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/add.jsp" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/edit.jsp" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/css/calendar.css" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/css/calendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/css/edit.css" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/css/edit.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/css/my_groundwork.css" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/css/my_groundwork.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/jquery/codemirror.min.js" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/utils/jquery/codemirror.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/utils/jquery/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/details.jsp" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/details.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -318,11 +241,13 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+            <state relative-caret-position="-303">
+              <caret line="276" column="53" lean-forward="false" selection-start-line="276" selection-start-column="53" selection-end-line="276" selection-end-column="53" />
               <folding>
-                <marker date="1517693177869" expanded="true" signature="10504:10534" ph="..." />
-                <marker date="1517693177869" expanded="true" signature="12960:13003" ph="..." />
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1518209700952" expanded="true" signature="10534:10564" ph="..." />
+                <marker date="1518209700952" expanded="true" signature="12990:13033" ph="..." />
               </folding>
             </state>
           </provider>
@@ -331,12 +256,27 @@
       <file leaf-file-name="add.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="330" column="37" lean-forward="true" selection-start-line="330" selection-start-column="37" selection-end-line="330" selection-end-column="37" />
+            <state relative-caret-position="878">
+              <caret line="351" column="54" lean-forward="true" selection-start-line="351" selection-start-column="54" selection-end-line="351" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1518208138491" expanded="true" signature="16715:16745" ph="..." />
-                <marker date="1518208138491" expanded="true" signature="19171:19214" ph="..." />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1518209888250" expanded="true" signature="16745:16775" ph="..." />
+                <marker date="1518209888250" expanded="true" signature="19201:19244" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="265" column="53" lean-forward="false" selection-start-line="265" selection-start-column="53" selection-end-line="265" selection-end-column="53" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1518209880419" expanded="true" signature="10204:10234" ph="..." />
+                <marker date="1518209880419" expanded="true" signature="12660:12703" ph="..." />
               </folding>
             </state>
           </provider>
@@ -345,9 +285,10 @@
       <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="108" lean-forward="false" selection-start-line="25" selection-start-column="108" selection-end-line="25" selection-end-column="108" />
+            <state relative-caret-position="-399">
+              <caret line="366" column="54" lean-forward="true" selection-start-line="366" selection-start-column="54" selection-end-line="366" selection-end-column="54" />
               <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1518208215187" expanded="true" signature="17248:17278" ph="..." />
                 <marker date="1518208215187" expanded="true" signature="19351:19394" ph="..." />
               </folding>
@@ -455,8 +396,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ArticleDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/impl/ArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Article.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/calendar.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/edit.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/utils/font-awesome-4.7.0/css/font-awesome.css" />
@@ -464,8 +403,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/newEdit.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/utils/froala_editor_2.7.4/css/font-awesome.min.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp" />
       </list>
     </option>
   </component>
@@ -489,7 +430,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1017" />
@@ -843,7 +784,7 @@
       <workItem from="1517692952798" duration="1505000" />
       <workItem from="1518037979490" duration="1265000" />
       <workItem from="1518183961802" duration="10122000" />
-      <workItem from="1518208326537" duration="253000" />
+      <workItem from="1518208326537" duration="1613000" />
     </task>
     <task id="LOCAL-00001" summary="Del redundant welcome.jsp">
       <created>1514230433703</created>
@@ -891,10 +832,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119382000" />
+    <option name="totallyTimeSpent" value="120742000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1182,25 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-          <folding>
-            <marker date="1517693177869" expanded="true" signature="10504:10534" ph="..." />
-            <marker date="1517693177869" expanded="true" signature="12960:13003" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2299">
-          <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/froala_editor_2.7.4/js/plugins/url.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1291,17 +1213,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/froala_editor_2.7.4/css/fontawesome.min.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/newEdit.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/froala_editor_2.7.4/css/font-awesome.min.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="108" lean-forward="false" selection-start-line="25" selection-start-column="108" selection-end-line="25" selection-end-column="108" />
-          <folding>
-            <marker date="1518208215187" expanded="true" signature="17248:17278" ph="..." />
-            <marker date="1518208215187" expanded="true" signature="19351:19394" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/font-awesome-4.7.0/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -1309,14 +1220,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="330" column="37" lean-forward="true" selection-start-line="330" selection-start-column="37" selection-end-line="330" selection-end-column="37" />
+        <state relative-caret-position="-399">
+          <caret line="366" column="54" lean-forward="true" selection-start-line="366" selection-start-column="54" selection-end-line="366" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1518208215187" expanded="true" signature="17248:17278" ph="..." />
+            <marker date="1518208215187" expanded="true" signature="19351:19394" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="276" column="53" lean-forward="false" selection-start-line="276" selection-start-column="53" selection-end-line="276" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1518208138491" expanded="true" signature="16715:16745" ph="..." />
-            <marker date="1518208138491" expanded="true" signature="19171:19214" ph="..." />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1518209700952" expanded="true" signature="10534:10564" ph="..." />
+            <marker date="1518209700952" expanded="true" signature="12990:13033" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="265" column="53" lean-forward="false" selection-start-line="265" selection-start-column="53" selection-end-line="265" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1518209880419" expanded="true" signature="10204:10234" ph="..." />
+            <marker date="1518209880419" expanded="true" signature="12660:12703" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="878">
+          <caret line="351" column="54" lean-forward="true" selection-start-line="351" selection-start-column="54" selection-end-line="351" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1518209888250" expanded="true" signature="16745:16775" ph="..." />
+            <marker date="1518209888250" expanded="true" signature="19201:19244" ph="..." />
           </folding>
         </state>
       </provider>
