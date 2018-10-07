@@ -5,200 +5,59 @@
       <artifact name="msmvc:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/pom.xml" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="39863eb6-1799-464e-bc0a-fd1f072f6828" name="Default" comment="index.jsp连接数据库成功！">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/License.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/codemirror.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/froala_editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/froala_editor.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/froala_editor.pkgd.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/froala_editor.pkgd.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/froala_style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/froala_style.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/char_counter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/char_counter.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/code_view.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/code_view.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/colors.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/colors.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/draggable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/draggable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/emoticons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/emoticons.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/file.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/file.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/fullscreen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/fullscreen.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/image.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/image.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/image_manager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/image_manager.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/line_breaker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/line_breaker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/quick_insert.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/quick_insert.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/table.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/table.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/video.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/plugins/video.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/dark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/dark.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/gray.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/gray.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/red.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/royal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/css/themes/royal.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/at.js/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/boostrap/content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/boostrap/lists.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/boostrap/modal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/colors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/core.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/direction_rtl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/disable_edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/emoticons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/enter_br.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/enter_div.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/enter_p.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/events/blur_focus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/events/content_changed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/events/drop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/events/image_removed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/file_s3_upload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/font_family.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/full.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/full_br.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/full_page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/full_page_bottom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/iframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/image_manager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/image_s3_upload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_destroy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_inside_iframe/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_inside_iframe/content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_inside_iframe/inline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_button.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_click/full.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_click/full_page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_click/toolbar_inline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_click/two_editors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_h1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_image.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/init_on_link.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/jquery_mobile/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/jquery_ui/modal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/language.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/line_breaker.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/live_preview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/require_js/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/require_js/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/require_js/js/lib/require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/scrollable_container.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/show_selection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/size/height.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/size/max_height.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/size/min_height.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/size/width.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/bottom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/bottom_offset.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/bottom_offset_scrollable_container.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/bottom_scrollable_container.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/top.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/top_offset.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/top_offset_scrollable_container.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/sticky_toolbar/top_scrollable_container.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/textarea.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/themes/dark_theme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/themes/gray_theme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/themes/red_theme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/themes/royal_theme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/toolbar_container.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/toolbar_container_inline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/toolbar_inline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/toolbar_inline_two.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/two_instances.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/html/z_index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/img/photo1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/froala_editor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/froala_editor.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/bs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/en_ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/en_gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/me.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/pt_br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/pt_pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/ua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/zh_cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/languages/zh_tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/align.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/char_counter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/code_beautifier.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/code_view.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/colors.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/draggable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/emoticons.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/entities.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/file.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/font_family.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/font_size.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/forms.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/fullscreen.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/image.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/image_manager.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/inline_style.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/line_breaker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/link.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/lists.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/paragraph_format.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/paragraph_style.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/quick_insert.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/quote.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/save.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/table.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/url.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/js/plugins/video.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Froala/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/msmvc_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/msmvc_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/classes/com/springapp/mvc/controller/AddController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/view/welcome.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_1_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ArticleController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ArticleController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/conf/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/resources/conf/mvc-dispatcher-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/my_groundwork.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/my_groundwork.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/utils/Flat-UI-master/css/flat-ui.css" afterPath="$PROJECT_DIR$/src/main/webapp/utils/Flat-UI-master/css/flat-ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/conf/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/target/classes/conf/mvc-dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/classes/conf/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/classes/conf/mvc-dispatcher-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/add.jsp" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/add.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/details.jsp" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/details.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/edit.jsp" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/edit.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/WEB-INF/views/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/css/my_groundwork.css" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/css/my_groundwork.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Flat-UI-master/css/flat-ui.css" afterPath="$PROJECT_DIR$/target/springmvc_mybatis/utils/Flat-UI-master/css/flat-ui.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -238,60 +97,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <file leaf-file-name="Article.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-303">
-              <caret line="276" column="53" lean-forward="false" selection-start-line="276" selection-start-column="53" selection-end-line="276" selection-end-column="53" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1518209700952" expanded="true" signature="10534:10564" ph="..." />
-                <marker date="1518209700952" expanded="true" signature="12990:13033" ph="..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp">
+      <file leaf-file-name="ArticleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ArticleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="878">
-              <caret line="351" column="54" lean-forward="true" selection-start-line="351" selection-start-column="54" selection-end-line="351" selection-end-column="54" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1518209888250" expanded="true" signature="16745:16775" ph="..." />
-                <marker date="1518209888250" expanded="true" signature="19201:19244" ph="..." />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="details.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp">
+      <file leaf-file-name="ArticleDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ArticleDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="265" column="53" lean-forward="false" selection-start-line="265" selection-start-column="53" selection-end-line="265" selection-end-column="53" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1518209880419" expanded="true" signature="10204:10234" ph="..." />
-                <marker date="1518209880419" expanded="true" signature="12660:12703" ph="..." />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.jsp">
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-399">
-              <caret line="366" column="54" lean-forward="true" selection-start-line="366" selection-start-column="54" selection-end-line="366" selection-end-column="54" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1518208215187" expanded="true" signature="17248:17278" ph="..." />
-                <marker date="1518208215187" expanded="true" signature="19351:19394" ph="..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -312,16 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>footer</find>
-      <find>footerbox</find>
-      <find>column-all</find>
-      <find>input</find>
-      <find>form</find>
-      <find>time-dis</find>
-      <find>Calendar</find>
-      <find>column-left</find>
-      <find>calend</find>
-      <find>column-ri</find>
       <find>insertArticle</find>
       <find>Author-name</find>
       <find>before-article</find>
@@ -338,15 +169,26 @@
       <find>border</find>
       <find>froala_editor_2.7.4</find>
       <find>Froala</find>
-      <find>utils</find>
       <find>ul</find>
       <find>list-style-type</find>
       <find>fontawesome-webfont.eot</find>
+      <find>height</find>
+      <find>utils</find>
+      <find>content</find>
+      <find>properties</find>
+      <find>org.apache.maven.plugins</find>
+      <find>../../</find>
+      <find>Flat</find>
+      <find>../</find>
+      <find>css/</find>
+      <find>freemarkerConfigurer</find>
+      <find>user</find>
     </findStrings>
     <replaceStrings>
       <replace>Froala</replace>
       <replace>froala_editor_2.7.4</replace>
       <replace>../../utils</replace>
+      <replace>../</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -382,31 +224,31 @@
         <option value="$PROJECT_DIR$/src/main/webapp/js/Clock.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/conf/mvc-dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/conf/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/my_groundwork.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/utils/Flat-UI-master/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/utils/Flat-UI-master/css/flat-ui.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/article.js" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/ArticleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ArticleDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/impl/ArticleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Article.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/calendar.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/edit.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/utils/font-awesome-4.7.0/css/font-awesome.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/newEdit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/utils/froala_editor_2.7.4/css/font-awesome.min.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/utils/Flat-UI-master/css/flat-ui.css" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/my_groundwork.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Article.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ArticleController.java" />
       </list>
     </option>
   </component>
@@ -430,11 +272,31 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="msmvc Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="msmvc Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="msmvc Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1017" />
-    <option name="height" value="1019" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -454,8 +316,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -496,7 +356,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maven_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maven_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Maven_SSM" type="b2602c69:ProjectViewProjectNode" />
@@ -504,33 +379,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maven_SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maven_SSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maven_SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maven_SSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="froala_editor_2.7.4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Maven_SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Maven_SSM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="froala_editor_2.7.4" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Maven_SSM" type="b2602c69:ProjectViewProjectNode" />
@@ -554,25 +402,28 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/utils/Flat-UI-master" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.32291666" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work\Maven_SSM\src\main\webapp\utils\Flat-UI-master\js" />
+      <recent name="E:\Work\Maven_SSM\src\main\webapp\utils\Flat-UI-master\css" />
       <recent name="E:\Work\Maven_SSM\src\main\webapp\utils\Flat-UI-master" />
       <recent name="E:\Work\msmvc\src\main\webapp\WEB-INF\pages" />
       <recent name="E:\Work\msmvc\src\main\resources\conf" />
-      <recent name="E:\Work\msmvc\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.springapp.mvc.service" />
@@ -599,6 +450,7 @@
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.24">
     <configuration name="Tomcat 8.5.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="16bf23d4-93e0-4ffc-bfd6-cb13575177b0" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="msmvc:war exploded">
@@ -665,9 +517,7 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="msmvc:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -784,7 +634,14 @@
       <workItem from="1517692952798" duration="1505000" />
       <workItem from="1518037979490" duration="1265000" />
       <workItem from="1518183961802" duration="10122000" />
-      <workItem from="1518208326537" duration="1613000" />
+      <workItem from="1518208326537" duration="3155000" />
+      <workItem from="1523866139278" duration="8418000" />
+      <workItem from="1523950235685" duration="6982000" />
+      <workItem from="1525246067942" duration="5064000" />
+      <workItem from="1525871230279" duration="610000" />
+      <workItem from="1538913300924" duration="70000" />
+      <workItem from="1538913601990" duration="304000" />
+      <workItem from="1538913916121" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="Del redundant welcome.jsp">
       <created>1514230433703</created>
@@ -832,16 +689,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120742000" />
+    <option name="totallyTimeSpent" value="144455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28874734" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119936034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10208333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -850,16 +707,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17409766" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25265393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25244832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2883569" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29193205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17552084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20842217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -869,7 +726,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -899,96 +756,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="412" column="0" lean-forward="false" selection-start-line="412" selection-start-column="0" selection-end-line="412" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="408" column="0" lean-forward="false" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="433" column="0" lean-forward="false" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="127" column="17" lean-forward="false" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/conf/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="78" lean-forward="false" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
-          <folding>
-            <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,20 +824,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/Flat-UI-master/js/.jshintrc" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/Flat-UI-master/css/flat-ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="346" column="19" lean-forward="true" selection-start-line="346" selection-start-column="19" selection-end-line="346" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ArticleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/article.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1070,13 +831,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/ArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1088,24 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="73" lean-forward="false" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/impl/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1127,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,38 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/Froala/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1254">
-          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/my_groundwork.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/edit.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/Froala/css/font-awesome.min.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/jquery/xml.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/gh-buttons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2622">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -1188,85 +896,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ArticleController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/Froala/css/froala_editor.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/froala_editor_2.7.4/css/fontawesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/newEdit.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/froala_editor_2.7.4/css/font-awesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/froala_editor_2.7.4/js/froala_editor.pkgd.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="81" column="51" lean-forward="true" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="192">
+          <caret line="12" column="4743" lean-forward="false" selection-start-line="12" selection-start-column="4743" selection-end-line="12" selection-end-column="4743" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/Froala/css/froala_editor.css">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/edit.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="601" column="2" lean-forward="false" selection-start-line="601" selection-start-column="2" selection-end-line="601" selection-end-column="2" />
+        <state relative-caret-position="50">
+          <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/gh-buttons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2508">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
+        <state relative-caret-position="380">
+          <caret line="28" column="92" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="819" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/froala_editor_2.7.4/css/fontawesome.min.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/newEdit.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/froala_editor_2.7.4/css/font-awesome.min.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/font-awesome-4.7.0/css/font-awesome.css">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        <state relative-caret-position="5240">
+          <caret line="328" column="60" lean-forward="false" selection-start-line="328" selection-start-column="60" selection-end-line="328" selection-end-column="60" />
+          <folding>
+            <marker date="1523965475489" expanded="false" signature="14363:14384" ph="..." />
+            <marker date="1523965475489" expanded="true" signature="16883:16913" ph="..." />
+            <marker date="1523965475489" expanded="true" signature="18986:19029" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="366" column="54" lean-forward="true" selection-start-line="366" selection-start-column="54" selection-end-line="366" selection-end-column="54" />
+        <state relative-caret-position="5819">
+          <caret line="330" column="66" lean-forward="false" selection-start-line="330" selection-start-column="66" selection-end-line="330" selection-end-column="66" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1518208215187" expanded="true" signature="17248:17278" ph="..." />
-            <marker date="1518208215187" expanded="true" signature="19351:19394" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-303">
-          <caret line="276" column="53" lean-forward="false" selection-start-line="276" selection-start-column="53" selection-end-line="276" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1518209700952" expanded="true" signature="10534:10564" ph="..." />
-            <marker date="1518209700952" expanded="true" signature="12990:13033" ph="..." />
+            <marker date="1523965475643" expanded="false" signature="14396:14417" ph="..." />
+            <marker date="1523965475643" expanded="true" signature="16916:16946" ph="..." />
+            <marker date="1523965475643" expanded="true" signature="19019:19062" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="265" column="53" lean-forward="false" selection-start-line="265" selection-start-column="53" selection-end-line="265" selection-end-column="53" />
+        <state relative-caret-position="2451">
+          <caret line="170" column="46" lean-forward="false" selection-start-line="170" selection-start-column="46" selection-end-line="170" selection-end-column="46" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1518209880419" expanded="true" signature="10204:10234" ph="..." />
-            <marker date="1518209880419" expanded="true" signature="12660:12703" ph="..." />
+            <marker date="1523965475555" expanded="false" signature="5834:5855" ph="..." />
+            <marker date="1523965475555" expanded="false" signature="7654:7675" ph="..." />
+            <marker date="1523965475555" expanded="true" signature="10174:10204" ph="..." />
+            <marker date="1523965475555" expanded="true" signature="12630:12673" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/Flat-UI-master/css/flat-ui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="878">
-          <caret line="351" column="54" lean-forward="true" selection-start-line="351" selection-start-column="54" selection-end-line="351" selection-end-column="54" />
+        <state relative-caret-position="-4765">
+          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1518209888250" expanded="true" signature="16745:16775" ph="..." />
-            <marker date="1518209888250" expanded="true" signature="19201:19244" ph="..." />
+            <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/utils/font-awesome-4.7.0/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/my_groundwork.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="142" column="32" lean-forward="false" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="32" />
+          <folding>
+            <marker date="1525269544464" expanded="true" signature="10650:10680" ph="..." />
+            <marker date="1525269544464" expanded="true" signature="13106:13149" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/impl/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="149" column="15" lean-forward="false" selection-start-line="149" selection-start-column="15" selection-end-line="149" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ArticleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,11 +1084,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>msmvc:war exploded</last-edited>
+          <last-edited>SpringMVC</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.32291666" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1293,7 +1101,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.32291666" />
               </list>
             </option>
           </splitter-proportions>
@@ -1328,7 +1136,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.32291666" />
               </list>
             </option>
           </splitter-proportions>
@@ -1348,11 +1156,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: org.mybatis:mybatis:3.3.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.465625" />
               </list>
             </option>
           </splitter-proportions>

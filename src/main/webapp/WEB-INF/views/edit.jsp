@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <%--
   Created by IntelliJ IDEA.
   User: Markus
@@ -14,46 +15,49 @@
     <!--froala_editor_2.7.4-->
 
     <!-- Include Font Awesome. -->
-    <link href="../../utils/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    <link href="utils/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
     <!-- Include Editor style. -->
-    <link href="../../utils/froala_editor_2.7.4/css/froala_editor.min.css" rel="stylesheet" type="text/css"/>
-    <link href="../../utils/froala_editor_2.7.4/css/froala_style.min.css" rel="stylesheet" type="text/css"/>
+    <link href="utils/froala_editor_2.7.4/css/froala_editor.min.css" rel="stylesheet" type="text/css"/>
+    <link href="utils/froala_editor_2.7.4/css/froala_style.min.css" rel="stylesheet" type="text/css"/>
 
     <!-- Include theme files. -->
-    <link href="../../utils/froala_editor_2.7.4/css/themes/dark.min.css" rel="stylesheet" type="text/css" />
-    <link href="../../utils/froala_editor_2.7.4/css/themes/red.min.css" rel="stylesheet" type="text/css" />
-    <link href="../../utils/froala_editor_2.7.4/css/themes/gray.min.css" rel="stylesheet" type="text/css" />
-    <link href="../../utils/froala_editor_2.7.4/css/themes/royal.min.css" rel="stylesheet" type="text/css" />
+    <link href="utils/froala_editor_2.7.4/css/themes/dark.min.css" rel="stylesheet" type="text/css" />
+    <link href="utils/froala_editor_2.7.4/css/themes/red.min.css" rel="stylesheet" type="text/css" />
+    <link href="utils/froala_editor_2.7.4/css/themes/gray.min.css" rel="stylesheet" type="text/css" />
+    <link href="utils/froala_editor_2.7.4/css/themes/royal.min.css" rel="stylesheet" type="text/css" />
 
     <!-- Include Code Mirror style -->
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/codemirror.min.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/codemirror.min.css">
 
     <!-- Include Editor Plugins style. -->
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/char_counter.css">
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/code_view.css">
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/colors.css">
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/emoticons.css">
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/file.css">
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/fullscreen.css">
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/image.css">
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/image_manager.css">
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/line_breaker.css">
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/quick_insert.css">
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/table.css">
-    <link rel="stylesheet" href="../../utils/froala_editor_2.7.4/css/plugins/video.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/char_counter.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/code_view.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/colors.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/emoticons.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/file.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/fullscreen.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/image.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/image_manager.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/line_breaker.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/quick_insert.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/table.css">
+    <link rel="stylesheet" href="utils/froala_editor_2.7.4/css/plugins/video.css">
+
+    <!-- CSS rules for styling the element inside the editor such as p, h1, h2, etc. -->
+    <link href="utils/froala_editor_2.7.4/css/froala_style.min.css" rel="stylesheet" type="text/css"/>
+
     <!--froala_editor_2.7.4 End-->
 
-    <!-- Google map -->
-    <!--<link rel="stylesheet" href="css/style.css" type="text/css" media="all">-->
 
     <!-- Calendar & Clock -->
-    <link rel="stylesheet" type="text/css" href="../../css/calendar.css">
+    <link rel="stylesheet" type="text/css" href="css/calendar.css">
     <!-- Icons from GroundworkCss -->
-    <link rel="stylesheet" type="text/css" href="../../css/edit.css">
+    <link rel="stylesheet" type="text/css" href="css/edit.css">
+    <link rel="stylesheet" type="text/css" href="css/gh-buttons.css">
     <!-- Groundwork -->
-    <!--<link rel="stylesheet" type="text/css" href="../../utils/groundwork/css/groundwork.css">-->
-    <script type="text/javascript" src="../../js/Clock.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="utils/groundwork/css/groundwork.css">-->
+    <script type="text/javascript" src="js/Clock.js"></script>
 
     <style type="text/css">
         * {
@@ -70,11 +74,6 @@
             font-family: Verdana, sans-serif
         }
 
-        .map {
-            height:300px;
-            width: 420px;
-            border:6px solid #DAE3E6;
-        }
 
         #header {
             /*border-image: linear-gradient(to right, #216684, #83d0f2) 10;*/
@@ -92,7 +91,7 @@
         .headerwrap {
             margin: 0 auto;
             height: 45px;
-            background: url(../../img/headerbg.png) top center repeat-x;
+            background: url(img/headerbg.png) top center repeat-x;
         }
 
         #nav-sec {
@@ -132,7 +131,7 @@
         }
 
         .column-all {
-            isplay: -webkit-flex;
+            display: -webkit-flex;
             display: flex;
             margin: auto;
             height: 100%;
@@ -163,7 +162,7 @@
 
         .footertop {
             width: 100%;
-            background: transparent url(../../img/footertop.png) top center no-repeat;
+            background: transparent url(img/footertop.png) top center no-repeat;
             clear: both;
             height: 78px;
             margin: 0 auto;
@@ -285,53 +284,51 @@
                         </dd>
                     </dl>
                 </div>
-                <div>
-                    <textarea id="edit" name="content">${article.content}</textarea>
-                </div>
+                <textarea id="edit" name="content">${article.content}</textarea>
                 <div class="btn_submmit">
                     <a href="#" class="button" onclick="updateArt();return false;">SUBMIT</a>
                 </div>
             </form>
 
             <!-- Include jQuery. -->
-            <script type="text/javascript" src="../../utils/jquery/jquery.min.js"></script>
+            <script type="text/javascript" src="utils/jquery/jquery.min.js"></script>
 
             <!-- Include JS files. -->
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/froala_editor.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/froala_editor.min.js"></script>
 
             <!-- Include Code Mirror. -->
-            <script type="text/javascript" src="../../utils/jquery/codemirror.min.js"></script>
-            <script type="text/javascript" src="../../utils/jquery/xml.min.js"></script>
+            <script type="text/javascript" src="utils/jquery/codemirror.min.js"></script>
+            <script type="text/javascript" src="utils/jquery/xml.min.js"></script>
 
             <!-- Include Plugins. -->
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/align.min.js"></script>
-            <!--<script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/char_counter.min.js"></script>-->
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/code_beautifier.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/code_view.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/colors.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/emoticons.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/entities.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/file.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/font_family.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/font_size.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/fullscreen.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/image.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/image_manager.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/inline_style.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/line_breaker.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/link.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/lists.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/paragraph_format.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/paragraph_style.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/quick_insert.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/quote.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/table.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/save.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/url.min.js"></script>
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/plugins/video.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/align.min.js"></script>
+            <!--<script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/char_counter.min.js"></script>-->
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/code_beautifier.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/code_view.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/colors.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/emoticons.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/entities.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/file.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/font_family.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/font_size.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/fullscreen.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/image.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/image_manager.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/inline_style.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/line_breaker.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/link.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/lists.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/paragraph_format.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/paragraph_style.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/quick_insert.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/quote.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/table.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/save.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/url.min.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/plugins/video.min.js"></script>
 
             <!-- Include Language file if we want to use it. -->
-            <script type="text/javascript" src="../../utils/froala_editor_2.7.4/js/languages/ro.js"></script>
+            <script type="text/javascript" src="utils/froala_editor_2.7.4/js/languages/ro.js"></script>
 
             <!-- Initialize the editor. -->
             <script>
@@ -341,15 +338,15 @@
                         toolbarSticky: false,
                         theme: 'gray',
                         zIndex: 2001,
-                        fontFamily: {
-                            "SimHei": '黑体',
-                            "SimSun": '宋体',
-                            "KaiTi": '楷体',
-                            "YouYuan": '幼圆',
-                            "Arial": 'Arial',
-                            "Arial Black": 'Arial Black',
-                            "Times New Roman": 'Times New Roman',
-                            "Verdana": 'Verdana'
+                        fontFamily:{
+                            "SimHei":'黑体',
+                            "SimSun":'宋体',
+                            "KaiTi":'楷体',
+                            "YouYuan":'幼圆',
+                            "Arial":'Arial',
+                            "Arial Black":'Arial Black',
+                            "Times New Roman":'Times New Roman',
+                            "Verdana":'Verdana'
                         }
                     })
                 });
@@ -468,7 +465,7 @@
                                 calendar.innerHTML += "<li>" + dayNo + "</li>\n";
                             }
 
-                            // 如果是当前月最后一天则从下个月第一天开始继续打印直到打印完35天为止
+                            // 如果是当前月最后一天则从下个月第一天开始继续打印直到打印完42天为止
                             if (dayNo === countDays)
                                 dayNo = 1;
                             else

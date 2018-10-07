@@ -13,9 +13,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Page</title>
-    <link rel="stylesheet" type="text/css" href="../../css/calendar.css">
-    <link rel="stylesheet" type="text/css" href="../../utils/Flat-UI-master/css/flat-ui.css">
-    <script type="text/javascript" src="../../js/Clock.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/calendar.css">
+    <link rel="stylesheet" type="text/css" href="utils/Flat-UI-master/css/flat-ui.css">
+    <script type="text/javascript" src="js/Clock.js"></script>
     <script type="text/javascript">
         function toEdit() {
             document.getElementById("updateArticleForm").submit();
@@ -52,7 +52,7 @@
         .headerwrap {
             margin: 0 auto;
             height: 45px;
-            background: url(../../img/headerbg.png) top center repeat-x;
+            background: url(img/headerbg.png) top center repeat-x;
         }
 
         #nav-sec {
@@ -168,7 +168,7 @@
 
         .footertop {
             width: 100%;
-            background: transparent url(../../img/footertop.png) top center no-repeat;
+            background: transparent url(img/footertop.png) top center no-repeat;
             clear: both;
             height: 78px;
             margin: 0 auto;

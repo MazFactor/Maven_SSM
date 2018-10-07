@@ -64,6 +64,7 @@
           class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
         <property name="templateLoaderPath" value="/WEB-INF/view/" />
         <property name="defaultEncoding" value="utf-8" />
+        <property name="preferFileSystemAccess" value="false" />
         <property name="freemarkerSettings">
             <props>
                 <prop key="template_update_delay">10</prop>

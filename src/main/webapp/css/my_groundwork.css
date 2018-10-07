@@ -1,7 +1,7 @@
 @font-face {
     font-family: FontAwesome;
-    src: url(../utils/Froala/css/fonts/fontawesome-webfont.eot?v=3.2.1);
-    src: url(../utils/Froala/css/fonts/fontawesome-webfont.eot?#iefix&v=3.2.1) format("embedded-opentype"), url(../utils/Froala/css/fonts/fontawesome-webfont.woff?v=3.2.1) format("woff"), url(../utils/Froala/css/fonts/fontawesome-webfont.ttf?v=3.2.1) format("truetype"), url(../utils/Froala/css/fonts/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1) format("svg");
+    src: url(../utils/font-awesome-4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0);
+    src: url(../utils/font-awesome-4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(../utils/font-awesome-4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"), url(../utils/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(../utils/font-awesome-4.7.0/fonts/fontawesome-webfont.svg#fontawesomeregular?v=4.7.0) format("svg");
     font-weight: 200;
     font-style: normal;
 }

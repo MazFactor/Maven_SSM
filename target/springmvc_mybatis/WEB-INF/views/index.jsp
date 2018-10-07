@@ -9,16 +9,21 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 
 <html>
 <head>
+    <base href="<%=basePath%>">
     <meta charset="UTF-8">
     <title>Page</title>
-    <link rel="stylesheet" type="text/css" href="../../css/calendar.css">
-    <link rel="stylesheet" type="text/css" href="../../css/my_groundwork.css">
-    <link rel="stylesheet" type="text/css" href="../../utils/Flat-UI-master/css/flat-ui.css">
-    <script type="text/javascript" src="../../js/Clock.js"></script>
-    <script type="text/javascript" src="../../js/article.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/calendar.css">
+    <link rel="stylesheet" type="text/css" href="css/my_groundwork.css">
+    <link rel="stylesheet" type="text/css" href="utils/Flat-UI-master/css/flat-ui.css">
+    <script type="text/javascript" src="js/Clock.js"></script>
+    <script type="text/javascript" src="js/article.js"></script>
     <style type="text/css">
         * {
             -webkit-box-sizing: border-box;
@@ -50,7 +55,7 @@
         .headerwrap {
             margin: 0 auto;
             height: 45px;
-            background: url(../../img/headerbg.png) top center repeat-x;
+            background: url(img/headerbg.png) top center repeat-x;
         }
 
         #nav-sec {
@@ -108,7 +113,6 @@
             display: flex;
             min-height: 100%;
             margin: auto;
-            height: 100%;
             max-width: 1100px;
             /*height: 100%;*/
             /*background-color: #89b2a1;*/
@@ -136,7 +140,7 @@
         }
 
         span {
-            font-size: 10px;
+            /*font-size: 10px;*/
         }
 
         h2 {
@@ -171,7 +175,7 @@
 
         .footertop {
             width: 100%;
-            background: transparent url(../../img/footertop.png) top center no-repeat;
+            background: transparent url(img/footertop.png) top center no-repeat;
             clear: both;
             height: 78px;
             margin: 0 auto;
@@ -227,7 +231,7 @@
         <div id="result"></div>
     </div>
     <div id="nav-sec">
-        <a href="localhost:63342/TEc/index.html">
+        <a href="localhost:8080/TEc">
             <div id="sign">
                 <ul>
                     <li style="list-style-type:none;">
